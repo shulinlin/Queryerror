@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="e_name">
+        <item>采煤机机械部分</item>
+        <item>掘进机机械部分</item>
+        <item>采煤机电器部分</item>
+        <item>掘进机电器部分</item>
+    </string-array>
+    <string-array name="ex_1">
+        <item>采煤机牵引力太小</item>
+        <item>采煤机牵引速度小</item>
+        <item>在压力关闭后重新启动时开关手把总是跳回关的位置</item>
+        <item>压力未过载但牵引驱动轮一转即停</item>
+        <item>采煤机摇臂不升起或升起后自动下降</item>
+        <item>牵引时常掉手把，并显示压力低</item>
+        <item>低压表不显示读数或读数几乎为零</item>
+    </string-array>
+    <string-array name="ex_2">
+        <item>掘进机截割头不转动</item>
+        <item>耙爪转速慢或不能转动</item>
+        <item>行走部、输送机链速减慢或停止运转</item>
+        <item>减速箱发热或有异常噪音</item>
+        <item>履带链脱轨</item>
+        <item>截齿损耗量大</item>
+        <item>刮板链不动作</item>
+        <item>履带不行走或行走不良</item>
+        <item>履带跳链</item>
+        <item>减速器有异响或温度过高</item>
+        <item>液压管路及接头处漏油</item>
+        <item>回路油所控制的执行元件均不动作</item>
+        <item>回路油所控制的仅某一或某几个执行元件不动作</item>
+        <item>油压达不到规定压力</item>
+        <item>油箱内油温过高</item>
+        <item>油泵吸空或吸油不足</item>
+        <item>油泵产生噪音</item>
+        <item>换向阀杆不动作</item>
+        <item>油缸不动作</item>
+    </string-array>
+    <string-array name="ex_3">
+        <item>采煤机摇臂电缆被挤坏</item>
+        <item>采煤机远控启车无自保</item>
+        <item>机组上切割启车掉电</item>
+        <item>上（下）电机启车掉电</item>
+        <item>上下电机启车无自保</item>
+        <item>干线电缆启车掉电</item>
+        <item>（350机组等）上下电机启车两相</item>
+        <item>（350机组等）上下电机不启车</item>
+    </string-array>
+    <string-array name="ex_4">
+        <item>掘进机切割头启车掉电</item>
+        <item>任一电机启车掉电</item>
+        <item>掘进机不启车</item>
+        <item>油泵不启车</item>
+        <item>所有故障灯动作</item>
+        <item>掘进机显示电机过热不启车</item>
+        <item>掘进机油泵时常断电</item>
+        <item>送电后照明灯及显示屏不亮</item>
+        <item>油泵电机不转</item>
+        <item>截割电机不转（高速、低速）</item>
+        <item>显示屏无电流或电压显示</item>
+        <item>二运电机不转</item>
+    </string-array>
+    <string-array name="ex_1_1reason">
+        <item>由现场司机查看外接的主管路是否漏油</item>
+        <item>如判断故障为机组内部问题，由专门检修人员负责查看泵或马达是否泄漏过大;安全阀是否调定低</item>
+        <item>冷却水不良使油温过高</item>
+    </string-array>
+    <string-array name="ex_1_1sol">
+        <item>拧紧接头，更换密封件或管件</item>
+        <item>更换损坏的主泵、马达或重新调定安全阀，更换损坏的安全阀</item>
+        <item>更换损坏的冷却水管，疏通冷却水管</item>
+    </string-array>
+    <string-array name="ex_1_2reason">
+        <item>主泵或马达漏损大</item>
+        <item>管路漏损严重</item>
+        <item>自动变量机构有卡阻或动作失灵</item>
+    </string-array>
+    <string-array name="ex_1_2sol">
+        <item>由专门检修人员开盖处理，查看故障部件。更坏损坏的泵或马达</item>
+        <item>处理损坏的管路，必要时更换</item>
+        <item>清洗或更换</item>
+    </string-array>
+    <string-array name="ex_1_3reason">
+        <item>主泵零位不正确</item>
+        <item>高压安全阀节流孔堵塞</item>
+    </string-array>
+    <string-array name="ex_1_3sol">
+        <item>由专门检修人员重新调整主泵零位</item>
+        <item>疏通节流孔</item>
+    </string-array>
+    <string-array name="ex_1_4reason">
+        <item>可由现场司机检查安全关闭阀是否复位</item>
+        <item>由专门检修人员检查高压安全阀上的节流孔或主阀组到高压安全阀管路</item>
+    </string-array>
+    <string-array name="ex_1_4sol">
+        <item>复位即可</item>
+        <item>疏通即可</item>
+    </string-array>
+    <string-array name="ex_1_5reason">
+        <item>由专业人员检查液压锁密封</item>
+        <item>检查油缸是否串液</item>
+        <item>检查手动换向阀是否串液</item>
+        <item>检查调高管路是否破损，有漏液现象</item>
+    </string-array>
+    <string-array name="ex_1_5sol">
+        <item>更换即可</item>
+        <item>需更换油缸</item>
+        <item>修复即可</item>
+        <item>修复或更换损坏的管路</item>
+    </string-array>
+    <string-array name="ex_1_6reason">
+        <item>查看过压关闭阀整定是否过低</item>
+        <item>查看高压安全阀是否漏损</item>
+        <item>检查主管路是否漏损</item>
+        <item>查看背压阀是否复位</item>
+    </string-array>
+    <string-array name="ex_1_6sol">
+        <item>重新整定</item>
+        <item>更换即可</item>
+        <item>检查或更换损坏的管路</item>
+        <item>复位背压阀并重新调整好压力到额定值</item>
+    </string-array>
+    <string-array name="ex_1_7reason">
+        <item>低压管路漏损</item>
+        <item>辅助泵损坏</item>
+        <item>马达或主泵漏损严重</item>
+    </string-array>
+    <string-array name="ex_1_7sol">
+        <item>更换即可</item>
+        <item>由专门检修人更换</item>
+        <item>更换损坏的马达或主泵</item>
+    </string-array>
+    <string-array name="ex_2_1reason">
+        <item>截割头过负载</item>
+        <item>减速器传动机件损坏，检修传动部件</item>
+        <item>电机故障</item>
+    </string-array>
+    <string-array name="ex_2_1sol">
+        <item>减少负载</item>
+        <item>更换即可</item>
+        <item>可更换电机</item>
+    </string-array>
+    <string-array name="ex_2_2reason">
+        <item>现场司机检查有无岩石卡住耙爪</item>
+        <item>由检修人员检查油压、油泵或装载减速器内部机件是否损坏</item>
+        <item>检查安全阀是否损坏</item>
+    </string-array>
+    <string-array name="ex_2_2sol">
+        <item>清理即可</item>
+        <item>损坏件更换即可</item>
+        <item>更换或修理损坏的安全阀</item>
+    </string-array>
+    <string-array name="ex_2_3reason">
+        <item>由现场司机检查牵引链涨紧力</item>
+        <item>检查牵引链是否刮卡</item>
+        <item>机体一侧履带是否打滑</item>
+        <item>检查油压、马达及回油管是否变形</item>
+        <item>检查减速器传动机件是否损坏</item>
+        <item>检查行走部和输送机的安全阀是否损坏</item>
+        <item>检查操纵阀是否变形卡阻</item>
+    </string-array>
+    <string-array name="ex_2_3sol">
+        <item>调整即可</item>
+        <item>处理刮卡处</item>
+        <item>填实即可</item>
+        <item>修复即可</item>
+        <item>更换即可</item>
+        <item>更换损坏的安全阀</item>
+        <item>处理操纵阀变形、卡阻必要时更换</item>
+    </string-array>
+    <string-array name="ex_2_4reason">
+        <item>由现场司机检查润滑油油量</item>
+        <item>由检修人员检查减速箱内部齿轮是否损坏</item>
+    </string-array>
+    <string-array name="ex_2_4sol">
+        <item>添加即可</item>
+        <item>更换齿轮或轴承</item>
+    </string-array>
+    <string-array name="ex_2_5reason">
+        <item>现场司机检查履带涨紧</item>
+        <item>检查是否漏油</item>
+        <item>检查涨紧缸是否串液</item>
+    </string-array>
+    <string-array name="ex_2_5sol">
+        <item>调整涨紧即可</item>
+        <item>单向阀漏油可更换</item>
+        <item>更换串液的涨紧缸</item>
+    </string-array>
+    <string-array name="ex_2_6reason">
+        <item>钻入深度过大，截割头移动过快</item>
+        <item>截割过负荷</item>
+        <item>强行割矸</item>
+    </string-array>
+    <string-array name="ex_2_6sol">
+        <item>减小钻入深度，降低油缸速度</item>
+        <item>减轻负荷</item>
+        <item>放震动炮</item>
+    </string-array>
+    <string-array name="ex_2_7reason">
+        <item>油压不够</item>
+        <item>液压系统故障</item>
+        <item>油马达损坏</item>
+        <item>运输机过负荷</item>
+        <item>链松、卡链</item>
+        <item>矸石卡机尾</item>
+    </string-array>
+    <string-array name="ex_2_7sol">
+        <item>调整溢流阀使压力达到额定值</item>
+        <item>检查液压系统</item>
+        <item>更换马达</item>
+        <item>减轻负荷控制煤量</item>
+        <item>调整链条松紧</item>
+        <item>清除异物</item>
+    </string-array>
+    <string-array name="ex_2_8reason">
+        <item>油压太低</item>
+        <item>油马达内部损坏</item>
+        <item>履带过紧</item>
+        <item>行走减速机内部损坏</item>
+        <item>履带板塞死</item>
+        <item>泵损坏</item>
+        <item>操纵阀串液或卡阻</item>
+        <item>有一侧履带打滑</item>
+    </string-array>
+    <string-array name="ex_2_8sol">
+        <item>调整溢流阀使压力达到额定值</item>
+        <item>更换马达</item>
+        <item>调整张紧程度</item>
+        <item>检查内部</item>
+        <item>清除异物</item>
+        <item>更换</item>
+        <item>处理或更换</item>
+        <item>把打滑侧履带垫实即可</item>
+    </string-array>
+    <string-array name="ex_2_9reason">
+        <item>履带过松</item>
+        <item>涨紧油缸损坏</item>
+        <item>液压锁老损</item>
+    </string-array>
+    <string-array name="ex_2_9sol">
+        <item>调整涨紧程度</item>
+        <item>检查更换</item>
+        <item>更换损坏的液压锁</item>
+    </string-array>
+    <string-array name="ex_2_10reason">
+        <item>减速器内部损坏</item>
+        <item>润滑油不够</item>
+    </string-array>
+    <string-array name="ex_2_10sol">
+        <item>检查更换</item>
+        <item>加润滑油</item>
+    </string-array>
+    <string-array name="ex_2_11reason">
+        <item>液压管路接头松动</item>
+        <item>O型圈或组合垫损坏</item>
+    </string-array>
+    <string-array name="ex_2_11sol">
+        <item>紧固或更换</item>
+        <item>更换</item>
+    </string-array>
+    <string-array name="ex_2_12reason">
+        <item>高压软管损坏</item>
+        <item>油泵损坏</item>
+        <item>回路溢流阀损坏</item>
+        <item>多路换向阀损坏</item>
+    </string-array>
+    <string-array name="ex_2_12sol">
+        <item>更换</item>
+        <item>检查或更换油泵</item>
+        <item>检查或更换溢流阀</item>
+        <item>更换多路换向阀</item>
+    </string-array>
+    <string-array name="ex_2_13reason">
+        <item>该片换向阀损坏</item>
+        <item>执行元件损坏</item>
+        <item>执行元件所在油路中其它阀损坏</item>
+    </string-array>
+    <string-array name="ex_2_13sol">
+        <item>更换损坏换向阀</item>
+        <item>检修或更换</item>
+        <item>检修或更换阀</item>
+    </string-array>
+    <string-array name="ex_2_14reason">
+        <item>油泵损坏</item>
+        <item>溢流阀动作不良</item>
+        <item>分配齿轮箱损坏</item>
+        <item>吸油过滤器阻塞</item>
+        <item>冷却不良使油温过高</item>
+        <item>油量不足</item>
+    </string-array>
+    <string-array name="ex_2_14sol">
+        <item>检查或更换油泵</item>
+        <item>检查溢流阀</item>
+        <item>检修内部</item>
+        <item>清理或更换</item>
+        <item>查看冷却系统，并处理</item>
+        <item>加油到规定值</item>
+    </string-array>
+    <string-array name="ex_2_15reason">
+        <item>液压油油量不够</item>
+        <item>液压油油质不好</item>
+        <item>溢流阀压力过高</item>
+        <item>冷却器水量不足</item>
+        <item>冷却器堵塞</item>
+    </string-array>
+    <string-array name="ex_2_15sol">
+        <item>加补液压油</item>
+        <item>换油</item>
+        <item>调整溢流阀</item>
+        <item>调整冷却水量</item>
+        <item>清理内部</item>
+    </string-array>
+    <string-array name="ex_2_16reason">
+        <item>油箱缺油</item>
+        <item>油的粘度过高</item>
+        <item>油管阻力大，漏油</item>
+        <item>进油过滤器堵塞</item>
+        <item>进油管密封损坏</item>
+        <item>电机倒转</item>
+    </string-array>
+    <string-array name="ex_2_16sol">
+        <item>加油至规定高度</item>
+        <item>更换标准用油</item>
+        <item>更换进油管</item>
+        <item>清洗或更换</item>
+        <item>更换新密封</item>
+        <item>使油泵正转</item>
+    </string-array>
+    <string-array name="ex_2_17reason">
+        <item>吸油管进入空气</item>
+        <item>进油过滤器堵塞</item>
+        <item>油泵内部损坏</item>
+        <item>安全阀调定值太高</item>
+    </string-array>
+    <string-array name="ex_2_17sol">
+        <item>避免进入空气。拧紧吸液管接头</item>
+        <item>清洗或更换</item>
+        <item>检查内部或更换</item>
+        <item>重新调整或更换</item>
+    </string-array>
+    <string-array name="ex_2_18reason">
+        <item>阀杆损伤或进入异物</item>
+        <item>连接螺栓过紧</item>
+        <item>弹簧损坏</item>
+    </string-array>
+    <string-array name="ex_2_18sol">
+        <item>检修更换</item>
+        <item>调整合适</item>
+        <item>更换弹簧</item>
+    </string-array>
+    <string-array name="ex_2_19reason">
+        <item>油压不足</item>
+        <item>换向阀动作不良</item>
+        <item>密封损坏。油缸串液</item>
+        <item>溢流阀动作不良</item>
+    </string-array>
+    <string-array name="ex_2_19sol">
+        <item>调整溢流阀</item>
+        <item>检修</item>
+        <item>更换密封，更换油缸</item>
+        <item>检修调整溢流阀或更换</item>
+    </string-array>
+    <string-array name="ex_3_1reason">
+        <item>摇臂下压太大，掉进煤矸块造成电缆被挤坏</item>
+    </string-array>
+    <string-array name="ex_3_1sol">
+        <item>更换被挤坏电缆。加胶皮护套</item>
+    </string-array>
+    <string-array name="ex_3_2reason">
+        <item>由检修电工检查远控自保线是否断开</item>
+        <item>由检修电工检查机组内部中间继电器接点是否完好</item>
+        <item>由检修电工检查机组内部1140的保险是否完好</item>
+        <item>由检修电工检查变压器是否烧坏</item>
+    </string-array>
+    <string-array name="ex_3_2sol">
+        <item>接通自保线即可</item>
+        <item>更换一组接点即可</item>
+        <item>更换保险即可</item>
+        <item>更换变压器</item>
+    </string-array>
+    <string-array name="ex_3_3reason">
+        <item>上摇臂电缆损坏</item>
+        <item>上摇臂ABD坏或虚接</item>
+        <item>电流互感器松动</item>
+    </string-array>
+    <string-array name="ex_3_3sol">
+        <item>更换电缆线</item>
+        <item>更换或接实即可</item>
+        <item>紧固良好即可</item>
+    </string-array>
+    <string-array name="ex_3_4reason">
+        <item>电机、电缆对地绝缘是否良好</item>
+        <item>对地检测线在真空接触器打开同时是否能正常断开</item>
+        <item>真空接触器是否有接头粘连</item>
+    </string-array>
+    <string-array name="ex_3_4sol">
+        <item>更换绝缘低的电机、电缆</item>
+        <item>更换一组接点</item>
+        <item>把粘连真空管断开</item>
+    </string-array>
+    <string-array name="ex_3_5reason">
+        <item>真空管后面的自保接点是否完好</item>
+        <item>36、37号自保线是否完好</item>
+    </string-array>
+    <string-array name="ex_3_5sol">
+        <item>修理更换一组接点</item>
+        <item>接实或更换小线</item>
+    </string-array>
+    <string-array name="ex_3_6reason">
+        <item>检查干线电缆对地绝缘是否完好</item>
+        <item>检查接线盒对地是否完好</item>
+    </string-array>
+    <string-array name="ex_3_6sol">
+        <item>更换绝缘低的电缆</item>
+        <item>按完好标准进行完好，必要时更换接线盒</item>
+    </string-array>
+    <string-array name="ex_3_7reason">
+        <item>真空接触器是否有触头头粘连</item>
+        <item>真空接触器机械机构是否有异物</item>
+        <item>隔离开关触头是否完好</item>
+        <item>4X315电源是否三相完好</item>
+    </string-array>
+    <string-array name="ex_3_7sol">
+        <item>断开真空管粘连点</item>
+        <item>及时清理</item>
+        <item>更换即可</item>
+        <item>更换4x315电源</item>
+    </string-array>
+    <string-array name="ex_3_8reason">
+        <item>远控4X315电源是否完好</item>
+        <item>机组内部1140的保险是否完好</item>
+        <item>36V保险是否完好</item>
+        <item>机组变压器是否完好</item>
+        <item>启车（停车）按钮是否完好</item>
+        <item>真空接触器电源、触头是否安好</item>
+        <item>ABD保护接点是否完好、ABD保护是否动作</item>
+    </string-array>
+    <string-array name="ex_3_8sol">
+        <item>更换315电源即可</item>
+        <item>更换保险</item>
+        <item>更换保险</item>
+        <item>更换变压器</item>
+        <item>修复按钮</item>
+        <item>更换真空接触器</item>
+        <item>更换ABD</item>
+    </string-array>
+    <string-array name="ex_4_1reason">
+        <item>电缆经常抽出</item>
+        <item>电流互感器损坏</item>
+    </string-array>
+    <string-array name="ex_4_1sol">
+        <item>更换电缆线</item>
+        <item>更换电流互感器</item>
+    </string-array>
+    <string-array name="ex_4_2reason">
+        <item>真空接触器检测接点在启车的同时是否能够打开</item>
+        <item>负荷电缆、电机对地绝缘是否良好</item>
+        <item>350馈电整定是否正确</item>
+    </string-array>
+    <string-array name="ex_4_2sol">
+        <item>更换真空接触器即可</item>
+        <item>更换电缆</item>
+        <item>调整整定值</item>
+    </string-array>
+    <string-array name="ex_4_3reason">
+        <item>检查按钮是否完好</item>
+        <item>PLC动作是否完好</item>
+        <item>固态继电器是否完好</item>
+        <item>中间继电器接点是否完好</item>
+        <item>温度保护是否正常</item>
+        <item>检查急停按钮是否完好</item>
+    </string-array>
+    <string-array name="ex_4_3sol">
+        <item>修复按钮</item>
+        <item>更换PLC</item>
+        <item>更换即可</item>
+        <item>接点打完好即可或更换下一组接点</item>
+        <item>更换即可，或疏通冷却水路</item>
+        <item>修复按钮</item>
+    </string-array>
+    <string-array name="ex_4_4reason">
+        <item>按钮是否完好</item>
+        <item>PLC动作是否完好</item>
+        <item>中间继电器是否完好</item>
+        <item>对地检测插件是否完好</item>
+    </string-array>
+    <string-array name="ex_4_4sol">
+        <item>修复按钮</item>
+        <item>更换即可</item>
+        <item>更换即可</item>
+        <item>更换对地检测插件</item>
+    </string-array>
+    <string-array name="ex_4_5reason">
+        <item>检查保险是否被烧坏</item>
+    </string-array>
+    <string-array name="ex_4_5sol">
+        <item>更换保险</item>
+    </string-array>
+    <string-array name="ex_4_6reason">
+        <item>过热继电器动作</item>
+        <item>查找冷却水是否充足</item>
+    </string-array>
+    <string-array name="ex_4_6sol">
+        <item>复位即可</item>
+        <item>补充冷却水、疏通水路</item>
+    </string-array>
+    <string-array name="ex_4_7reason">
+        <item>急停按钮虚连</item>
+        <item>电线被挤断</item>
+    </string-array>
+    <string-array name="ex_4_7sol">
+        <item>修复连线按钮</item>
+        <item>更换电缆线</item>
+    </string-array>
+    <string-array name="ex_4_8reason">
+        <item>供电电源没电</item>
+        <item>隔离开关损坏或没合上</item>
+        <item>高压融断器熔芯断</item>
+        <item>变压器损坏</item>
+        <item>照明漏电</item>
+    </string-array>
+    <string-array name="ex_4_8sol">
+        <item>检查电源</item>
+        <item>检查隔离开关</item>
+        <item>检查熔芯，更换即可</item>
+        <item>检查变压器，更换即可</item>
+        <item>照明灯进水或照明电缆破损</item>
+    </string-array>
+    <string-array name="ex_4_9reason">
+        <item>总急停按钮没解锁</item>
+        <item>固态继电器损坏</item>
+        <item>PLC故障</item>
+        <item>中间继电器KA3损坏</item>
+        <item>真空接触器KM3损坏</item>
+        <item>瓦斯超限</item>
+        <item>本安电源损坏</item>
+    </string-array>
+    <string-array name="ex_4_9sol">
+        <item>解锁复位或更换检修</item>
+        <item>更换或转到备用固态继电器上</item>
+        <item>检查PLC输出继电器Y2</item>
+        <item>检查或更换KA3</item>
+        <item>检查或更换KM3</item>
+        <item>检查瓦斯传感器，停机</item>
+        <item>去掉本安电源B1、B2，空载检查输出电压；检查B1、B2是否短路</item>
+    </string-array>
+    <string-array name="ex_4_10reason">
+        <item>油泵电机故障</item>
+        <item>总急停按钮或截割闭锁、按钮没解锁</item>
+        <item>固态继电器损坏</item>
+        <item>PLC损坏</item>
+        <item>中间继电器KA1（低速）KA2（高速）损坏</item>
+        <item>真空按触器KM1（低速）KM2（高速）损坏</item>
+        <item>瓦斯超限</item>
+        <item>本安电源损坏</item>
+    </string-array>
+    <string-array name="ex_4_10sol">
+        <item>排除油泵电机故障</item>
+        <item>解锁，复位、更换，检修</item>
+        <item>更换或转到备用固态继电器上</item>
+        <item>检查PLC的输出继电器Y0（低速）Y1（高速）必要时更换</item>
+        <item>检查KA1、 KA2或更换</item>
+        <item>检查KM1、 KM2或更换</item>
+        <item>检查瓦斯传感器，停机</item>
+        <item>检查本安电源空载输出电压B1、B2负载是否有短路点</item>
+    </string-array>
+    <string-array name="ex_4_11reason">
+        <item>电压变送器或电流变送器损坏</item>
+    </string-array>
+    <string-array name="ex_4_11sol">
+        <item>更换</item>
+    </string-array>
+    <string-array name="ex_4_12reason">
+        <item>油泵电机故障</item>
+        <item>总急停按钮未解锁</item>
+        <item>固态继电器损坏</item>
+        <item>PLC损坏</item>
+        <item>中间继电器KA4损坏</item>
+        <item>真空接触器KM4损坏</item>
+    </string-array>
+    <string-array name="ex_4_12sol">
+        <item>解除油泵电机故障</item>
+        <item>解锁复位，更换检修</item>
+        <item>更换或转到备用固态继电器上</item>
+        <item>检查PLC的输出继电器Y3</item>
+        <item>检查KA4或更换</item>
+        <item>检查KM4或更换</item>
+    </string-array>
+</resources>

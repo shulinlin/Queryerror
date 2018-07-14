@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="equip_name">
+        <item>40T刮板输送机</item>
+        <item>皮带运输机</item>
+    </string-array>
+    <string-array name="at_1fault">
+        <item>电动机起动不起来</item>
+        <item>电动机发热</item>
+        <item>液力偶合器打滑</item>
+        <item>一个液力偶合器温度过高</item>
+        <item>液力偶合器漏水</item>
+        <item>减速器声音不正常</item>
+        <item>减速器油温过高</item>
+        <item>减速器漏油</item>
+        <item>盲轴轴承温度过高</item>
+        <item>刮板链在链轮处跳牙</item>
+        <item>链子卡在链轮上</item>
+        <item>刮板链掉道</item>
+        <item>刮板链过度振动</item>
+        <item>刮板链在链轮上落辙</item>
+        <item>刮板输送机断链</item>
+    </string-array>
+    <string-array name="at_2fault">
+        <item>减速器声音不正常</item>
+        <item>减速器漏油</item>
+        <item>输送带跑偏</item>
+        <item>输送带滚筒打滑，如持续得不到纠正，能导致输送带着火事故</item>
+        <item>托辊运转不灵活或不转动</item>
+        <item>输送带被压住、启动、运行困难</item>
+        <item>输送带撕裂或断带</item>
+    </string-array>
+    <string-array name="at_1_1reason">
+        <item>负荷过大</item>
+        <item>电气线路损坏</item>
+    </string-array>
+    <string-array name="at_1_1sol">
+        <item>减轻负荷，将上槽煤去掉一部分</item>
+        <item>首先检查开关是否能正常启动，如开关能正常启动再检查负荷线与电机接线是否良好，负荷线是否损坏。发现上述情况应紧固接线或更换负荷线。检查电动机线柱是否损坏，如电动机损坏进行更换</item>
+    </string-array>
+    <string-array name="at_1_2reason">
+        <item>超负荷工作时间过长</item>
+        <item>通风散热情况不好</item>
+    </string-array>
+    <string-array name="at_1_2sol">
+        <item>减轻负荷，缩短超负荷工作时间控制煤量</item>
+        <item>清理电动机周围浮煤和杂物，检查电动机扇叶是否损坏</item>
+    </string-array>
+    <string-array name="at_1_3reason">
+        <item>液力偶合器里的水量不足</item>
+        <item>溜槽里堆煤太多</item>
+        <item>刮板链被卡住</item>
+    </string-array>
+    <string-array name="at_1_3sol">
+        <item>补充水量</item>
+        <item>将溜槽里的煤去掉一部分</item>
+        <item>检查是否由于机头分链器、二节、中部槽、机尾的损坏造成刮卡。如有损坏部件进行更换</item>
+    </string-array>
+    <string-array name="at_1_4reason">
+        <item>两个液力偶合器的水量不等</item>
+        <item>联轴器罩内被卡住或涡轮被卡住</item>
+    </string-array>
+    <string-array name="at_1_4sol">
+        <item>调整水量使两个液力偶合器水量均等</item>
+        <item>清除杂物</item>
+    </string-array>
+    <string-array name="at_1_5reason">
+        <item>防爆塞或易熔塞松动</item>
+        <item>密封圈及垫圈损坏</item>
+        <item>液力偶合器对口处不严或损坏</item>
+    </string-array>
+    <string-array name="at_1_5sol">
+        <item>拧紧</item>
+        <item>更换密封圈或垫圈</item>
+        <item>更换液力偶合器</item>
+    </string-array>
+    <string-array name="at_1_6reason">
+        <item>齿轮咬合不好</item>
+        <item>轴承或齿轮磨损或损坏</item>
+        <item>减速器里润滑油有金属杂物</item>
+        <item>轴承窜量大</item>
+    </string-array>
+    <string-array name="at_1_6sol">
+        <item>井下更换上井检修重新调整</item>
+        <item>更换</item>
+        <item>清除杂物</item>
+        <item>井下更换上井检修调整轴承的轴向间隙</item>
+    </string-array>
+    <string-array name="at_1_7reason">
+        <item>润滑油不合格或不洁净</item>
+        <item>润滑油过多或过少</item>
+        <item>冷却散热不好</item>
+    </string-array>
+    <string-array name="at_1_7sol">
+        <item>更换合格的润滑油</item>
+        <item>放出或补充润滑油</item>
+        <item>清除减速器周围的煤粉和杂物</item>
+    </string-array>
+    <string-array name="at_1_8reason">
+        <item>密封圈损坏</item>
+        <item>减速箱体结合面不严，各轴承盖螺丝松动</item>
+    </string-array>
+    <string-array name="at_1_8sol">
+        <item>更换，上井检修</item>
+        <item>拧紧各紧固螺丝</item>
+    </string-array>
+    <string-array name="at_1_9reason">
+        <item>密封件损坏，油不洁净</item>
+        <item>轴承损坏</item>
+        <item>油量不足</item>
+    </string-array>
+    <string-array name="at_1_9sol">
+        <item>更换密封件及油脂</item>
+        <item>更换盲轴</item>
+        <item>补充油量</item>
+    </string-array>
+    <string-array name="at_1_10reason">
+        <item>连接环安装不正确或圆环链拧麻花</item>
+        <item>链轮轮齿磨损严重</item>
+        <item>刮板链过松</item>
+    </string-array>
+    <string-array name="at_1_10sol">
+        <item>重新调整</item>
+        <item>更换链轮</item>
+        <item>重新紧链</item>
+    </string-array>
+    <string-array name="at_1_11reason">
+        <item>分链器松动、损坏或脱落</item>
+    </string-array>
+    <string-array name="at_1_11sol">
+        <item>拧紧螺栓 更换分链器</item>
+    </string-array>
+    <string-array name="at_1_12reason">
+        <item>刮板链过松</item>
+        <item>刮板弯曲严重</item>
+        <item>工作面不直造成刮板运输机机身过度弯曲，两条链子因受力不均而使刮板倾斜</item>
+        <item>溜槽磨损严重</item>
+    </string-array>
+    <string-array name="at_1_12sol">
+        <item>重新紧链</item>
+        <item>更换弯刮板</item>
+        <item>调直刮板运输机</item>
+        <item>更换磨损严重溜槽</item>
+    </string-array>
+    <string-array name="at_1_13reason">
+        <item>刮板链运行中受到刮卡</item>
+        <item>溜槽脱开或连接不平</item>
+    </string-array>
+    <string-array name="at_1_13sol">
+        <item>检查机头分链器、二节、中部槽、机尾是否损坏进行更换</item>
+        <item>接好溜槽，调平接口</item>
+    </string-array>
+    <string-array name="at_1_14reason">
+        <item>机头不正，机头第二节溜槽或底座不平</item>
+        <item>链轮过老或咬进杂物</item>
+        <item>两条刮板链的松紧不一致或刮板严重歪斜</item>
+        <item>刮板过稀或过度弯曲</item>
+    </string-array>
+    <string-array name="at_1_14sol">
+        <item>保持机头平直，垫平机身，使机头、机尾、中部槽成一直线</item>
+        <item>更换链轮或处理链轮内杂物</item>
+        <item>更换老链，调整刮板链使之松紧一致，调正刮板</item>
+        <item>补齐刮板或更换弯曲刮板</item>
+    </string-array>
+    <string-array name="at_1_15reason">
+        <item>使用磨损过限，伸长变形</item>
+        <item>使用中发生跳牙掉链、链条过紧、双链长短不一</item>
+        <item>夹链、卡链损伤链条</item>
+    </string-array>
+    <string-array name="at_1_15sol">
+        <item>更换老链</item>
+        <item>更换老链，调整链条松紧</item>
+        <item>处理刮卡现象更换损坏链条</item>
+    </string-array>
+    <string-array name="at_2_1reason">
+        <item>齿轮啮合不好</item>
+        <item>轴承或齿轮过度磨损或损坏</item>
+        <item>减速器内的油脂有金属杂物</item>
+        <item>轴承游隙过大</item>
+    </string-array>
+    <string-array name="at_2_1sol">
+        <item>上井检修调整齿轮啮合情况</item>
+        <item>上井检修更换损坏或磨损过度的轴承和齿轮</item>
+        <item>清楚减速器油中的金属杂物</item>
+        <item>上井检修调整好轴承轴向游隙量</item>
+    </string-array>
+    <string-array name="at_2_2reason">
+        <item>密封圈损坏或老化</item>
+        <item>减速器对口螺钉松动，各轴承盖螺钉不紧固</item>
+    </string-array>
+    <string-array name="at_2_2sol">
+        <item>更换损坏、老化的密封圈</item>
+        <item>拧紧箱体结合面和各轴承盖的螺钉、螺栓</item>
+    </string-array>
+    <string-array name="at_2_3reason">
+        <item>托滚与输送带中线不垂直</item>
+        <item>滚筒与输送带中线不垂直</item>
+        <item>输送带接头受力不均</item>
+        <item>装煤时偏向一侧</item>
+        <item>滚筒的局部粘煤粉</item>
+        <item>输送带本身质量不良，老化受力不均</item>
+    </string-array>
+    <string-array name="at_2_3sol">
+        <item>皮带运输机的中部跑偏时可调整托辊组的位置来调整跑偏。具体方法是皮带偏向哪一侧，托辊组的哪一侧朝皮带前进方向前移，或另外一侧后移</item>
+        <item>调整驱动滚筒与导向滚筒位置驱动滚筒与导向滚筒的调整是皮带跑偏调整的重要环节。因为一条皮带运输机至少有2到5个滚筒，所有滚筒的安装位置必须垂直于皮带运输机长度方向的中心线，若偏斜过大必然发生跑偏。其调整方法与调整托辊组类似。对于头部滚筒如皮带向滚筒的右侧跑偏，则右侧的轴承座应当向前移动，皮带向滚筒的左侧跑偏，则左侧的轴承座应当向前移动，相对应的也可将左侧轴承座后移或右侧轴承座后移。尾部滚筒的调整方法与头部滚筒刚好相反</item>
+        <item>皮带接头处重新打茬并保证割口与输送带中心线垂直或更换老化严重的皮带</item>
+        <item>如果物料偏到右侧，则皮带向左侧跑偏，反之亦然。为减少或避免皮带跑偏可增加挡料板阻挡物料，改变物料的下落方向和位置</item>
+        <item>将滚筒附近的铲煤板调节好，铲掉滚筒上煤粉</item>
+        <item>更换老皮带</item>
+    </string-array>
+    <string-array name="at_2_4reason">
+        <item>滚筒处水大</item>
+        <item>输送带张力不够</item>
+        <item>输送带过长</item>
+        <item>驱动滚筒没胶或老化严重</item>
+        <item>负载过大</item>
+    </string-array>
+    <string-array name="at_2_4sol">
+        <item>滚筒上方遮挡好防止淋水</item>
+        <item>输送带涨紧至适宜程度</item>
+        <item>裁去输送带过长部分再重接好输送带</item>
+        <item>更换驱动滚筒</item>
+        <item>去掉一部分煤，减轻负载</item>
+    </string-array>
+    <string-array name="at_2_5reason">
+        <item>托辊质量差，密封不好</item>
+        <item>轴承缺油或进入污物而卡阻甚至损坏</item>
+    </string-array>
+    <string-array name="at_2_5sol">
+        <item>更换托辊</item>
+        <item>更换损坏的托辊。加强润滑，清除污物</item>
+    </string-array>
+    <string-array name="at_2_6reason">
+        <item>过负荷运行，或满载停车后再启动</item>
+    </string-array>
+    <string-array name="at_2_6sol">
+        <item>卸掉输送带上的一部分货载，使之能启动和正常运行</item>
+    </string-array>
+    <string-array name="at_2_7reason">
+        <item>输送带严重跑偏造成</item>
+        <item>机尾进入杂物</item>
+        <item>皮带在滚筒处跑偏严重，出现咬带</item>
+    </string-array>
+    <string-array name="at_2_7sol">
+        <item>调整跑偏防止刮卡</item>
+        <item>皮带机尾清扫器固定好，防止底带带入杂物进入机尾</item>
+        <item>处理滚筒处皮带跑偏，将皮带机头储带仓多余皮带吐出来把撕坏的皮带割掉或更换</item>
+    </string-array>
+</resources>

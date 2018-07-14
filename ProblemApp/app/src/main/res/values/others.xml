@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="other_name">
+        <item>SGZ—730/320型中双链刮板输送机</item>
+        <item>BRW200/31.5乳化液泵</item>
+    </string-array>
+    <string-array name="ot_1fault">
+        <item>电机启动不起来或启动后又缓慢停车</item>
+        <item>电动机及两端轴承发热</item>
+        <item>电动机声音不正常</item>
+        <item>减速器声音不正常</item>
+        <item>减速器油温过高</item>
+        <item>加速器漏油</item>
+        <item>链齿轮两端的轴承温度过高</item>
+        <item>链子卡在链轮上</item>
+        <item>刮板链在链轮上跳牙或掉链</item>
+        <item>刮板链断链</item>
+        <item>刮板链掉道，飘链</item>
+        <item>刮板链过渡振动</item>
+        <item>电缆与电缆槽刮卡</item>
+        <item>链轮轴组温度过高</item>
+        <item>刮板链振动严重</item>
+        <item>刮板链调链或掉链</item>
+        <item>刮板链掉链</item>
+        <item>减速器漏油</item>
+        <item>电机响声不正常</item>
+        <item>电动机发热</item>
+        <item>电动机启动不起来或启动后缓缓停转</item>
+        <item>断上链</item>
+    </string-array>
+    <string-array name="ot_2fault">
+        <item>乳化液泵不出液或供液不足、泵的压力消失</item>
+        <item>泵的压力过低，工作无规</item>
+        <item>泵有压力，但是自动卸载阀动作时，供液压力则下降</item>
+        <item>自动卸载阀动作次数过多</item>
+        <item>柱塞密封处泄漏严重</item>
+        <item>泵的流量下降或冲击严重</item>
+        <item>泵的润滑油漏损严重</item>
+        <item>泵运转声音不正常，运转机构有撞击声</item>
+        <item>泵箱体温升过快或油温过高</item>
+        <item>压力表指针剧烈波动</item>
+        <item>配液浓度不当</item>
+    </string-array>
+    <string-array name="ot_1_1reason">
+        <item>负荷过大</item>
+        <item>电气线路损坏</item>
+        <item>电压下降</item>
+        <item>吃煤粉过多</item>
+    </string-array>
+    <string-array name="ot_1_1sol">
+        <item>减轻负荷，将溜槽上的煤挑去一部分</item>
+        <item>检查线路，更换损坏的路线</item>
+        <item>检查电压，不符合标准的处理</item>
+        <item>调整输送机机头与转载机的搭接高度</item>
+    </string-array>
+    <string-array name="ot_1_2reason">
+        <item>超负荷运载时间太长</item>
+        <item>通风散热情况不好</item>
+        <item>轴承损坏或缺油</item>
+    </string-array>
+    <string-array name="ot_1_2sol">
+        <item>减小机组速度，减轻负荷，缩短超负荷运载时间</item>
+        <item>清除电动机周伟浮煤及杂物，使电机有良好的散热环境，电动机本身的散热片物见本色</item>
+        <item>检查注油孔，按照检修标准注油不能超出规定的注油周期，并填写好记录;检查端盖轴承是否有损坏，如有损坏上井换轴承</item>
+    </string-array>
+    <string-array name="ot_1_3reason">
+        <item>电机单项起动或两项起动</item>
+        <item>接线头连接不牢固</item>
+    </string-array>
+    <string-array name="ot_1_3sol">
+        <item>检查单项或两项起动原因并处理好</item>
+        <item>检查开关负荷侧的接头有没有连接不紧固现象，如果有把螺丝拧紧</item>
+        <item>检查开关主接触器有没有断项现象，如果有，处理好</item>
+    </string-array>
+    <string-array name="ot_1_4reason">
+        <item>齿轮咬合不好</item>
+        <item>轴承或齿轮过度磨损或损坏</item>
+        <item>减速器内的油脏有金属等杂物</item>
+        <item>轴承游隙过大</item>
+    </string-array>
+    <string-array name="ot_1_4sol">
+        <item>检查调整齿轮的咬合情况（井上），一般有问提换减速器</item>
+        <item>检查更换损坏或磨损严重的轴承和齿轮（井上），换减速器</item>
+        <item>清除减速器油中的金属等杂物或换油</item>
+        <item>调整好轴承轴向游隙量（井上）一般情况换减速器</item>
+        <item>检查第一轴轴承的润滑情况</item>
+    </string-array>
+    <string-array name="ot_1_5reason">
+        <item>润滑油不合格或润滑油不干净</item>
+        <item>润滑油过多</item>
+        <item>散热不好</item>
+    </string-array>
+    <string-array name="ot_1_5sol">
+        <item>按规定更换新润滑油</item>
+        <item>放出多余的润滑油</item>
+        <item>清除减速器周围的煤粉及杂物</item>
+    </string-array>
+    <string-array name="ot_1_6reason">
+        <item>输出轴密封圈损坏</item>
+        <item>减速箱体合面不严，各轴承盖螺栓没拧紧</item>
+    </string-array>
+    <string-array name="ot_1_6sol">
+        <item>更换损坏的密封圈（井上），严重，换减速器</item>
+        <item>箱体合面加密封胶，各轴承盖加密封胶;拧紧箱体合面和各轴承盖螺丝</item>
+    </string-array>
+    <string-array name="ot_1_7reason">
+        <item>浮封环损坏，润滑油脂不干净</item>
+        <item>轴承损坏</item>
+        <item>油量不足</item>
+    </string-array>
+    <string-array name="ot_1_7sol">
+        <item>更换浮封环，更换润滑油脂</item>
+        <item>更换轴承（井上），一般情况换链轮</item>
+        <item>注适量油脂</item>
+    </string-array>
+    <string-array name="ot_1_8reason">
+        <item>拨链器松动损坏或丢失</item>
+    </string-array>
+    <string-array name="ot_1_8sol">
+        <item>拧紧螺栓</item>
+        <item>更换拨链器</item>
+    </string-array>
+    <string-array name="ot_1_9reason">
+        <item>链环拧麻花</item>
+        <item>链轮过度磨损</item>
+        <item>链子松，有老链条</item>
+    </string-array>
+    <string-array name="ot_1_9sol">
+        <item>把拧麻花的链子抻开顺好</item>
+        <item>链轮打调</item>
+        <item>重新紧链子，换老链子</item>
+    </string-array>
+    <string-array name="ot_1_10reason">
+        <item>不合理使用</item>
+        <item>溜子顶的不值，有刮卡</item>
+        <item>大链太紧</item>
+        <item>机组下有大块或其他物料</item>
+    </string-array>
+    <string-array name="ot_1_10sol">
+        <item>加强生产班操作管理，合理使用设备</item>
+        <item>强烈要求架子工把溜子顶的平直顺</item>
+        <item>调好大链松紧度，做到松紧适量</item>
+        <item>加强零点班检修，活环每天验一次，有老化的更换</item>
+        <item>机组割煤时，机组司机观看机组上方有大块杂物，要锁溜处理</item>
+    </string-array>
+    <string-array name="ot_1_11reason">
+        <item>刮板链过渡松弛</item>
+        <item>刮板变形严重或磨损严重</item>
+        <item>工作面不直，输送机过渡弯曲</item>
+    </string-array>
+    <string-array name="ot_1_11sol">
+        <item>重新紧链子</item>
+        <item>换变形严重的刮板，换磨损严重的刮板</item>
+        <item>工作面保持平直顺</item>
+    </string-array>
+    <string-array name="ot_1_12reason">
+        <item>溜槽错开或搭接不平</item>
+        <item>溜槽变形或损坏</item>
+    </string-array>
+    <string-array name="ot_1_12sol">
+        <item>把溜槽顶的直顺，调平溜槽接口</item>
+        <item>修整溜槽，更换损坏的溜槽</item>
+    </string-array>
+    <string-array name="ot_1_13reason">
+        <item>连接板变形或螺丝松动</item>
+        <item>挡煤板变形</item>
+        <item>电缆槽变形</item>
+    </string-array>
+    <string-array name="ot_1_13sol">
+        <item>把联接板整形后上好，拧紧接螺丝</item>
+        <item>把变形的挡煤板整形</item>
+        <item>修整变形的挡煤板或导向管</item>
+    </string-array>
+    <string-array name="ot_1_14reason">
+        <item>润滑油注油量不足</item>
+        <item>轴承损坏</item>
+    </string-array>
+    <string-array name="ot_1_14sol">
+        <item>按要求加足润滑油</item>
+        <item>更换轴承（井上），严重的换链轮轴组</item>
+    </string-array>
+    <string-array name="ot_1_15reason">
+        <item>刮板链预紧力太大</item>
+        <item>溜子顶的不直，溜槽对接不平</item>
+        <item>拉底槽中有金属物品</item>
+    </string-array>
+    <string-array name="ot_1_15sol">
+        <item>把刮板链掐开，加长链条，一定要适量</item>
+        <item>顶溜时必须保证溜子平直顺</item>
+        <item>调整溜子与转载机搭接高度，别拉进物品</item>
+    </string-array>
+    <string-array name="ot_1_16reason">
+        <item>链条卡进金属物</item>
+        <item>刮板链过渡松弛</item>
+    </string-array>
+    <string-array name="ot_1_16sol">
+        <item>清楚链条内的金属物</item>
+        <item>重新把大链掐紧</item>
+    </string-array>
+    <string-array name="ot_1_17reason">
+        <item>刮板链过度松弛</item>
+    </string-array>
+    <string-array name="ot_1_17sol">
+        <item>适量把大链掐紧</item>
+    </string-array>
+    <string-array name="ot_1_18reason">
+        <item>密封圈损坏</item>
+        <item>上下箱体合面不严</item>
+        <item>各端盖压不紧</item>
+    </string-array>
+    <string-array name="ot_1_18sol">
+        <item>换密封圈（井上），严重的换减速器</item>
+        <item>箱体合面加密封胶，拧紧螺丝（井上）</item>
+        <item>端盖加密封胶，拧紧端盖螺丝</item>
+    </string-array>
+    <string-array name="ot_1_19reason">
+        <item>单项运转</item>
+        <item>接线头不牢</item>
+    </string-array>
+    <string-array name="ot_1_19sol">
+        <item>检查电机接线盒，看接线是否正常，如有断项的接上，把接线柱螺丝拧紧</item>
+        <item>检查负荷线是否有挤压现象</item>
+        <item>看一看开关的真空管是否有不接通情况</item>
+    </string-array>
+    <string-array name="ot_1_20reason">
+        <item>启动过于频繁</item>
+        <item>超负荷运转时间太长</item>
+        <item>电动机散热情况不好</item>
+        <item>轴承缺油或损坏</item>
+    </string-array>
+    <string-array name="ot_1_20sol">
+        <item>减少启动次数，待各部位都消除故障后启动</item>
+        <item>减少负荷，缩短超负荷运转时间</item>
+        <item>检查电机冷却水是否畅通，调整水压达到要求值，消除电动机上的浮煤和杂物</item>
+        <item>给轴承加油或换轴承（井上），严重的换电机</item>
+    </string-array>
+    <string-array name="ot_1_21reason">
+        <item>供电电压太低</item>
+        <item>负荷太大</item>
+        <item>接触器有故障</item>
+    </string-array>
+    <string-array name="ot_1_21sol">
+        <item>查找供电电压过低的原因并排除，提高电压</item>
+        <item>减少负荷，将槽箱内的煤卸一部分，机组慢走</item>
+        <item>检查继电器是否有刮卡或松动，同时调整位置，重新固定，拧紧松动的螺丝</item>
+    </string-array>
+    <string-array name="ot_1_22reason">
+        <item>机组下有大块杂物</item>
+        <item>大链过紧</item>
+        <item>溜子不直平顺</item>
+    </string-array>
+    <string-array name="ot_1_22sol">
+        <item>将故障排除</item>
+        <item>将上链两个断头拉到一起，底链用上风8t绞车挂轮拉到断处</item>
+        <item>把两个到一起的断头用2.5米水柱稳好</item>
+        <item>升水柱将断头顶在一起接好，注意要远方操作水柱</item>
+        <item>回掉稳在链子上的水柱，试车后正常开车</item>
+    </string-array>
+    <string-array name="ot_2_1reason">
+        <item>泵的某一吸液阀或排液阀卡住，由异物引起</item>
+        <item>自动卸载阀主阀阀芯卡死，不动作，异物引起</item>
+        <item>自动卸载阀主阀下部推力活塞卡住，不动作，O型圈磨损（液流短路）异物造成</item>
+        <item>先导控制阀杆不发生动作，原因如3</item>
+        <item>自动卸载阀主阀不起作用，先导控制阀得出液小孔堵住</item>
+        <item>液箱内液位过低</item>
+        <item>吸液管的供液阀门关住</item>
+        <item>高压过滤器阻塞</item>
+        <item>卸压阀未关闭（RX2000箱）</item>
+    </string-array>
+    <string-array name="ot_2_1sol">
+        <item>清洗阀体，先是吸液阀后是排液阀</item>
+        <item>从泵上拆下自动卸载阀拧开下螺堵，取出推力活塞</item>
+        <item>如上述方法更换密封圈</item>
+        <item>拧开压弹簧大螺冒，取出先导阀杆，清洗及更换密封圈</item>
+        <item>拧开下自动卸载阀的先导阀，取出小嘴进行清洗</item>
+        <item>补充乳化液</item>
+        <item>打开供液阀门</item>
+        <item>清洗或更换滤芯</item>
+        <item>检查、关闭卸压阀</item>
+    </string-array>
+    <string-array name="ot_2_2reason">
+        <item>吸液软管中有空气</item>
+        <item>吸液管密封不好</item>
+        <item>泵柱塞密封失效，大量乳化液流回柱塞腔内</item>
+        <item>卸压阀关闭不严（RX2000箱）</item>
+    </string-array>
+    <string-array name="ot_2_2sol">
+        <item>打开吸液腔盖板上的放气塞，放尽空气</item>
+        <item>拧紧接头或更换</item>
+        <item>取下缸套，更换密封</item>
+        <item>检查、关闭卸压阀</item>
+    </string-array>
+    <string-array name="ot_2_3reason">
+        <item>主阀内单向阀芯不动作，由异物引起</item>
+        <item>先导控制阀阀杆关不住，是由O型圈磨损引起（液流短路）</item>
+    </string-array>
+    <string-array name="ot_2_3sol">
+        <item>取下上部螺堵，取出阀芯并进行清洗</item>
+        <item>松下大弹簧帽，取下先导控制阀，更换密封圈</item>
+    </string-array>
+    <string-array name="ot_2_4reason">
+        <item>工作面用液设备密封性能差，而使大量液体流失</item>
+        <item>Q</item>
+        <item>单向阀芯磨损</item>
+        <item>先导控制阀阀杆磨损</item>
+    </string-array>
+    <string-array name="ot_2_4sol">
+        <item>消除不良密封</item>
+        <item>Q</item>
+        <item>Q</item>
+        <item>Q</item>
+    </string-array>
+    <string-array name="ot_2_5reason">
+        <item>缸套内压紧弹簧断裂</item>
+        <item>柱塞密封圈严重磨损</item>
+        <item>柱塞表面严重滑伤</item>
+    </string-array>
+    <string-array name="ot_2_5sol">
+        <item>更换压紧弹簧</item>
+        <item>更换密封圈</item>
+        <item>更换柱塞</item>
+    </string-array>
+    <string-array name="ot_2_6reason">
+        <item>吸排液阀损坏</item>
+        <item>吸排液阀弹簧断裂</item>
+        <item>泵内产生空气</item>
+        <item>蓄能器充气压力过高或过低</item>
+    </string-array>
+    <string-array name="ot_2_6sol">
+        <item>更换新阀</item>
+        <item>更换弹簧</item>
+        <item>排尽空气</item>
+        <item>充气压力约为工作压力的60%～70%</item>
+    </string-array>
+    <string-array name="ot_2_7reason">
+        <item>滑块密封损坏</item>
+        <item>骨架油封损坏</item>
+        <item>箱体其它漏油</item>
+        <item>加油过多</item>
+    </string-array>
+    <string-array name="ot_2_7sol">
+        <item>更换滑块密封</item>
+        <item>更换骨架油封</item>
+        <item>处理漏油处</item>
+        <item>观察油标，放油至合适位置</item>
+    </string-array>
+    <string-array name="ot_2_8reason">
+        <item>连杆轴瓦磨损，间隙过大</item>
+        <item>运动机件松动</item>
+        <item>齿轮或齿轮轴损坏</item>
+    </string-array>
+    <string-array name="ot_2_8sol">
+        <item>更换轴瓦</item>
+        <item>调整松动零件</item>
+        <item>更换齿轮或齿轮轴</item>
+    </string-array>
+    <string-array name="ot_2_9reason">
+        <item>连杆轴瓦损坏及曲轴颈磨损</item>
+        <item>润滑油不足或太脏</item>
+        <item>润滑油过多</item>
+    </string-array>
+    <string-array name="ot_2_9sol">
+        <item>更换轴瓦或重新刮瓦修磨曲轴</item>
+        <item>清洗油池，加润滑油</item>
+        <item>调整油面位置至要求</item>
+    </string-array>
+    <string-array name="ot_2_10reason">
+        <item>吸液软管漏液</item>
+        <item>进水压力过低</item>
+    </string-array>
+    <string-array name="ot_2_10sol">
+        <item>排除漏液</item>
+        <item>按配比要求实行人供配液</item>
+    </string-array>
+    <string-array name="ot_2_11reason">
+        <item>配液阀调整不当</item>
+        <item>进水压力过低</item>
+    </string-array>
+    <string-array name="ot_2_11sol">
+        <item>调整配液阀</item>
+        <item>按配比要求实行人工配液</item>
+    </string-array>
+</resources>

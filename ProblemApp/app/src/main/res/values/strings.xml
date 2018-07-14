@@ -1,0 +1,1297 @@
+<resources>
+    <string name="app_name">煤矿机电设备维修手册</string>
+    <string-array name="category">
+        <item>开关类故障处理</item>
+        <item>辅助运输类故障处理</item>
+        <item>综采类故障处理</item>
+        <item>刮板输送机和乳化液泵故障处理</item>
+        <item>关于本软件</item>
+    </string-array>
+    <string-array name="switch_name">
+        <item>KBZ1-400(200)/1140矿用隔爆型真空馈电开关（浙江恒泰）</item>
+        <item>QJZ-200/315/400真空电磁启动器（天津天矿）</item>
+        <item>QJZ-4*400/1140(660)电光多回路真空电磁启动器</item>
+        <item>KBZ-630(500)1140W矿用隔爆智能馈电开关（徐州煤矿机械厂）</item>
+        <item>KBZ2-630(500 400 200)1140W矿用隔爆智能馈电开关（四平一开）</item>
+        <item>KBZ9-400矿用隔爆型馈电开关（煤科院抚顺分院）</item>
+        <item>BQD-80N-120N/660(1140)可逆电磁启动器（电光）故障现象及处理方法</item>
+        <item>QBZ-80-120--200/660/380隔爆真空磁力启动器（浙江恒泰）</item>
+        <item>ZXB-2.5(4)/127矿用照明信号综保（煤科院）</item>
+        <item>QBZ19-80/120/200矿用隔爆型真空磁力启动器(大同同大防爆)</item>
+        <item>QBZ（BQD）-80、120/660380) N矿用隔爆型真空可逆电磁启动器（电光防爆）</item>
+        <item>QJZ-200、400、QJZ2-300/1140(660)矿用隔爆本安型真空电磁启动器（浙江恒泰）</item>
+        <item>QJR-400、315、200、125、80/1140(660)Z矿用隔爆本安型交流软启动器（浙江恒泰）</item>
+        <item>QJR-125、250、400/1140(660)隔爆兼本安真空交流软起启动器(太原惠特)</item>
+        <item>QBZ1-60/660(380)隔爆多功能双风机、双电源自动切换电磁起动器(邢台金牛电控)</item>
+        <item>QJZ-400/1140(660)R隔爆兼本安交流软起动器(唐山智达)</item>
+        <item>QJR-350/3.3S 隔爆兼本安交流双速软起动器(太原惠特)</item>
+    </string-array>
+    <string-array name="s_1fault">
+        <item>合闸不动作</item>
+        <item>漏电实验不动作</item>
+        <item>不分闸</item>
+        <item>按钮故障，系统停车</item>
+    </string-array>
+    <string-array name="s_2fault">
+        <item>不能合闸</item>
+        <item>不能分闸</item>
+        <item>合闸后缺相掉电</item>
+    </string-array>
+    <string-array name="s_3fault">
+        <item>合闸不动作</item>
+        <item>无显示</item>
+        <item>一回路不启动</item>
+        <item>三回路联机失败</item>
+    </string-array>
+    <string-array name="s_4fault">
+        <item>合闸不动作</item>
+    </string-array>
+    <string-array name="s_5fault">
+        <item>合闸不动作</item>
+        <item>显示屏无显示</item>
+        <item>漏电实验不跳闸</item>
+    </string-array>
+    <string-array name="s_6fault">
+        <item>开关不能合闸</item>
+        <item>保护试验不分闸</item>
+        <item>漏电保护误动</item>
+    </string-array>
+    <string-array name="s_7fault">
+        <item>合闸不动作</item>
+        <item>按下QA1，接触器CKJ1不吸合</item>
+        <item>按下启动按钮，接触器不自保</item>
+        <item>RD熔断器烧毁</item>
+        <item>按下QA2，接触器CKJ2不吸合</item>
+        <item>过载时保护器不动作</item>
+    </string-array>
+    <string-array name="s_8fault">
+        <item>合闸不启动</item>
+        <item>不自保</item>
+        <item>起动后过一段时间自停</item>
+    </string-array>
+    <string-array name="s_9fault">
+        <item>合闸不动作</item>
+    </string-array>
+    <string-array name="s_10fault">
+        <item>启动器不工作</item>
+        <item>显示器花屏或白屏</item>
+        <item>中文显示器不显示</item>
+        <item>开关乱跳闸</item>
+        <item>中文显示器电压、电流、漏电值等参数显示不符</item>
+    </string-array>
+    <string-array name="s_11fault">
+        <item>按下启动按钮，接触器不吸合</item>
+        <item>启动后无法维持</item>
+        <item>无法停止</item>
+        <item>阻容保护器电阻烧毁</item>
+        <item>三相严重不同步</item>
+        <item>过载时保护器不动作</item>
+        <item>RD熔断</item>
+    </string-array>
+    <string-array name="s_12fault">
+        <item>上电后系统没反应</item>
+        <item>和上位机通讯失败</item>
+        <item>电动机启动瞬间短路保护</item>
+        <item>运行状态显示不正确</item>
+        <item>字迹显示混乱</item>
+    </string-array>
+    <string-array name="s_13fault">
+        <item>按下启动按钮后不启动</item>
+        <item>电动机起动运行46秒左右自动停机或运行中有时自动停机</item>
+        <item>电动机起动瞬间保护</item>
+        <item>输出三相电压不平衡</item>
+        <item>按下启动按钮启动不到3秒自动停机</item>
+        <item>启动后，控制器停车，提示“旁路拒动”</item>
+    </string-array>
+    <string-array name="s_14fault">
+        <item>按下启动按钮，电机不启动</item>
+        <item>电机缺相运行</item>
+        <item>过载时不动作</item>
+        <item>晶闸管组件超温</item>
+        <item>无法远控</item>
+        <item>显示器无显示或显示不正确</item>
+    </string-array>
+    <string-array name="s_15fault">
+        <item>启动器送电后电源灯不亮</item>
+        <item>电源和运行灯亮，但启动器不能启动</item>
+        <item>电源灯亮、运行灯不亮</item>
+        <item>两台配合使用不能自动切换</item>
+        <item>风电闭锁功能不正常</item>
+        <item>瓦斯断电功能不正常</item>
+        <item>显示不正常</item>
+    </string-array>
+    <string-array name="s_16fault">
+        <item>门盖上显示指示灯不亮，系统可以启动</item>
+        <item>门盖上显示指示灯不亮，系统不可以启动</item>
+        <item>主板工作正常，但无软起过程</item>
+        <item>主板工作正常，软起动结束后停机</item>
+        <item>触发启动过程中电机振动大</item>
+        <item>送电输出后顶上级开关</item>
+    </string-array>
+    <string-array name="s_17fault">
+        <item>预启动故障显示线电压丢失</item>
+        <item>预启动故障显示SCR短路</item>
+        <item>预启动故障显示门极开路（带相指示）</item>
+        <item>预启动故障显示PTC电源电极过热</item>
+        <item>预启动故障显示电机PTC</item>
+        <item>预启动故障显示旁路开路</item>
+        <item>预启动故障显示无负载</item>
+        <item>预启动故障显示母线不平衡</item>
+        <item>预启动故障显示过电压</item>
+        <item>预启动故障显示欠电压</item>
+        <item>预启动故障显示过载</item>
+        <item>预启动故障显示欠载</item>
+        <item>预启动故障显示堵转</item>
+        <item>预启动故障显示失速</item>
+        <item>预启动故障显示反相</item>
+        <item>预启动故障显示通讯丢失</item>
+        <item>预启动故障显示网络故障</item>
+        <item>预启动故障显示接地故障</item>
+        <item>预启动故障显示过多的起到次数/小时</item>
+        <item>预启动故障显示电源丢失（带相指示）</item>
+        <item>预启动故障显示HALL ID</item>
+        <item>预启动故障显示NVS错误</item>
+        <item>预启动故障显示母线丢失</item>
+        <item>预启动故障显示系统故障</item>
+        <item>电机不能启动，无输出电压，故障显示空白</item>
+        <item>电机不能启动，无输出电压，显示停机0安培</item>
+        <item>电机不能启动，无输出电压，显示正在启动</item>
+        <item>电机旋转达不到额定转速，显示正在启动</item>
+        <item>电机在运行期间停机，显示空白</item>
+        <item>电机在运行期间停机，显示0安培</item>
+        <item>电机在运行期间停机，显示正在启动</item>
+        <item>在恒定负载下电机电流和电压值不断波动</item>
+        <item>运行不稳定</item>
+        <item>加速过快</item>
+        <item>加速过慢</item>
+        <item>电机过热</item>
+        <item>电机短路</item>
+    </string-array>
+    <string-array name="s_1_1_reason">
+        <item>漏电闭锁</item>
+        <item>保护器坏</item>
+        <item>欠压线圈、闭锁线圈未得电</item>
+        <item>合闸线圈烧毁</item>
+        <item>合闸机构卡不住</item>
+        <item>控制电源板烧毁</item>
+    </string-array>
+    <string-array name="s_1_1_sol">
+        <item>查线路故障，寻找漏电</item>
+        <item>无故障显示，BH不吸合，则更换保护器</item>
+        <item>检查高压闭锁、瓦斯闭锁是否封合</item>
+        <item>中间继电器HZ动作，而系统未合闸，量合闸线圈短路则更换</item>
+        <item>合闸线圈吸合后又释放，合闸机构卡不住。井上掏芯子调节转轴或蛇板</item>
+        <item>更换控制板，为分合闸回路提供直流电源</item>
+    </string-array>
+    <string-array name="s_1_2_reason">
+        <item>试验按钮未闭合</item>
+        <item>辅助接地接地不好</item>
+        <item>5K电阻开路</item>
+        <item>保护器坏</item>
+    </string-array>
+    <string-array name="s_1_2_sol">
+        <item>短接试验按钮，或者更换</item>
+        <item>辅助接地链接好，最好放置潮湿处</item>
+        <item>更换5K电阻</item>
+        <item>BH不吸，更换保护器</item>
+    </string-array>
+    <string-array name="s_1_3_reason">
+        <item>分励线圈烧毁</item>
+        <item>分闸按钮未闭合到位</item>
+        <item>机构卡滞</item>
+    </string-array>
+    <string-array name="s_1_3_sol">
+        <item>更换分闸线圈</item>
+        <item>短接分闸钮</item>
+        <item>调节结构</item>
+    </string-array>
+    <string-array name="s_1_4_reason">
+        <item>合闸机构挂不住</item>
+        <item>合闸线圈辅助接点 29#30#未切换</item>
+    </string-array>
+    <string-array name="s_1_4_sol">
+        <item>调整机构</item>
+        <item>调整辅助接点</item>
+    </string-array>
+    <string-array name="s_2_1_reason">
+        <item>启动按钮故障，按钮未闭合</item>
+        <item>分闸按钮及急停按钮未复位</item>
+        <item>电源变压器接线错误，1140V接660V</item>
+        <item>综合保护器ABD8-400的2#10#接点未闭合</item>
+        <item>远近控回路二极管烧毁或者缺失</item>
+        <item>先导插件烧毁</item>
+    </string-array>
+    <string-array name="s_2_1_sol">
+        <item>更换启动按钮</item>
+        <item>复位停钮和急停钮使其常闭</item>
+        <item>更改控制变压器抽头</item>
+        <item>短接2#10#，如启动则更换保护器</item>
+        <item>接二极管</item>
+        <item>更换先导插件</item>
+    </string-array>
+    <string-array name="s_2_2_reason">
+        <item>分闸按钮未按到位</item>
+    </string-array>
+    <string-array name="s_2_2_sol">
+        <item>更换按钮</item>
+    </string-array>
+    <string-array name="s_2_3_reason">
+        <item>真空管三相不同期</item>
+        <item>电流互感器断线</item>
+    </string-array>
+    <string-array name="s_2_3_sol">
+        <item>调节行程螺栓或者更换真空管</item>
+        <item>电流互感器按照说明书接线，注意极性</item>
+    </string-array>
+    <string-array name="s_3_1_reason">
+        <item>第一回路未得电</item>
+        <item>先导插件损坏</item>
+        <item>保护器输出接点未闭合（CB接点）</item>
+        <item>KM辅助常闭接点未闭合</item>
+        <item>却远近控却二极管或者烧毁</item>
+        <item>停钮及急停钮未复位</item>
+        <item>KC继电器未吸合</item>
+        <item>采面扩音电话闭锁未接触</item>
+        <item>远近控或者四回路开关功能选择错误</item>
+        <item>合闸回路整流桥烧毁</item>
+        <item>二次保险烧毁</item>
+        <item>保护器设置错误</item>
+    </string-array>
+    <string-array name="s_3_1_sol">
+        <item>合第一回路隔离开关</item>
+        <item>更换先导插件</item>
+        <item>短接保护输出接点，如启动，更换保护器</item>
+        <item>用万用表测量辅助接点闭合情况</item>
+        <item>更换二极管</item>
+        <item>复位停钮和急停钮</item>
+        <item>处理采面扩音电话闭锁</item>
+        <item>重新按照说明书选择远近控和四回路功能转换开关</item>
+        <item>更换整流桥</item>
+        <item>更换二次保险</item>
+        <item>根据说明书设置保护器参数</item>
+    </string-array>
+    <!-- add new-->
+    <string-array name="s_3_2_reason">
+        <item>FU18熔断</item>
+        <item>电源模块损坏</item>
+        <item>综保损坏</item>
+        <item>电源变压器绕组损坏</item>
+        <item>换向开关坏</item>
+        <item>试验转换开关坏</item>
+    </string-array>
+    <string-array name="s_3_2_sol">
+        <item>检查FU18是否熔断，可更换</item>
+        <item>更换电源模块</item>
+        <item>更换综合保护监控装置</item>
+        <item>检查电源变压器TC3的220V绕组是否损坏？引出线接触是否良好？</item>
+        <item>处理隔离换向开关接触点，或更换</item>
+        <item>试验转换开关接触不良可更换</item>
+    </string-array>
+    <string-array name="s_3_3_reason">
+        <item>设置开关不正确，远近控开关是否拨到位？</item>
+        <item>急停按钮闭锁</item>
+        <item>先导插件坏</item>
+        <item>WZBQ1坏</item>
+        <item>FU13熔断</item>
+        <item>辅助接触器KA5坏</item>
+        <item>KM2接触器整流桥坏</item>
+    </string-array>
+    <string-array name="s_3_3_sol">
+        <item>设置开关设置正确，远近控钮子开关拨动到位</item>
+        <item>解除SB5的闭锁</item>
+        <item>更换XD1插件</item>
+        <item>更换</item>
+        <item>更换</item>
+        <item>更换</item>
+        <item>更换</item>
+    </string-array>
+    <string-array name="s_3_4_reason">
+        <item>FU15熔断</item>
+        <item>设置开关不正确，远近控开关是否拨到位</item>
+        <item>急停按钮SB7闭锁</item>
+        <item>先导插件坏</item>
+        <item>WZBQ1输出接点SJ2未延时闭合</item>
+        <item>装置设置不正确</item>
+        <item>KM31反馈接点未闭合</item>
+        <item>KM32反馈前级接点未闭合</item>
+        <item>辅助接触器KA7损坏</item>
+        <item>KM3接触器整流桥坏</item>
+    </string-array>
+    <string-array name="s_3_4_sol">
+        <item>更换保险</item>
+        <item>设置开关设置正确，远近控钮子开关拨动到位</item>
+        <item>解除SB7的闭锁</item>
+        <item>更换XD3插件</item>
+        <item>调整输出接点SJ2延时时间</item>
+        <item>重新设置</item>
+        <item>打磨接点或更换</item>
+        <item>由WZBQ2联机信号判定是否闭合，更换</item>
+        <item>更换或修复KA7</item>
+        <item>更换</item>
+    </string-array>
+    <!--tail-->
+    <string-array name="s_4_1_reason">
+        <item>合闸保险、中间继电器KA保险烧毁</item>
+        <item>合闸线圈回路整流桥损坏</item>
+        <item>失压线圈未得电，接触器辅助接点闭合不好</item>
+        <item>停钮未复位</item>
+        <item>保护器44# 45#接点输出接点未切换</item>
+        <item>高压闭锁、瓦斯闭锁、风电闭锁未使用的情况下没有短接</item>
+        <item>保护动作，时间继电器失电，闭锁合闸回路</item>
+    </string-array>
+    <string-array name="s_4_1_sol">
+        <item>更换R3R4保险</item>
+        <item>更换整流桥</item>
+        <item>调整主接触器辅助接点</item>
+        <item>复位停钮</item>
+        <item>更换保护器</item>
+        <item>短接闭锁接点</item>
+        <item>处理负荷故障</item>
+    </string-array>
+    <string-array name="s_5_1_reason">
+        <item>保护器 7#8#输出开路</item>
+        <item>分闸按钮未闭合</item>
+        <item>QF辅助接点闭合不好</item>
+        <item>合闸回路整流桥损坏</item>
+        <item>合闸线圈烧毁</item>
+        <item>K2线圈吸合不好</item>
+        <item>控制变压器45V无输出</item>
+        <item>FU4保险管烧毁</item>
+        <item>K1接点闭合不好、失压线圈未得电</item>
+        <item>FU2保险管烧毁</item>
+    </string-array>
+    <string-array name="s_5_1_sol">
+        <item>无故障显示的情况下，更换保护器</item>
+        <item>测量分闸按钮，使其闭合完好</item>
+        <item>调整辅助接点</item>
+        <item>更换合闸回路整流桥</item>
+        <item>更换合闸线圈</item>
+        <item>更换K2继电器</item>
+        <item>查看是否断线，从新接好</item>
+        <item>更换保险管</item>
+        <item>测量K1接点，失压线圈得电</item>
+        <item>更换合闸回路250V保险</item>
+    </string-array>
+    <string-array name="s_5_2_reason">
+        <item>控制变压器17.5V无输出</item>
+        <item>FU3烧毁</item>
+        <item>显示屏故障</item>
+    </string-array>
+    <string-array name="s_5_2_sol">
+        <item>控制变压器输出断线，从新接</item>
+        <item>更换保险</item>
+        <item>更换显示屏</item>
+    </string-array>
+    <string-array name="s_5_3_reason">
+        <item>辅助接地没接好</item>
+        <item>1K接地电阻烧毁</item>
+        <item>保护器坏</item>
+    </string-array>
+    <string-array name="s_5_3_sol">
+        <item>辅助接地完善，接地极从新埋压至潮湿处</item>
+        <item>更换1K电阻</item>
+        <item>更换保护器</item>
+    </string-array>
+    <string-array name="s_6_1_reason">
+        <item>合闸机构卡</item>
+        <item>分闸线圈有电故障未复位</item>
+    </string-array>
+    <string-array name="s_6_1_sol">
+        <item>调节合闸机构的合闸角度钉</item>
+        <item>按照显示处理负荷故障</item>
+    </string-array>
+    <string-array name="s_6_2_reason">
+        <item>保护器坏</item>
+        <item>脱扣线圈烧毁</item>
+        <item>机构卡</item>
+    </string-array>
+    <string-array name="s_6_2_sol">
+        <item>更换保护器</item>
+        <item>更换脱扣线圈</item>
+        <item>调节分闸机构</item>
+    </string-array>
+    <string-array name="s_6_3_reason">
+        <item>保护器设置错误</item>
+    </string-array>
+    <string-array name="s_6_3_sol">
+        <item>主馈电未设置延时，并设置ZK</item>
+        <item>分支馈电未设置延时，分支开关设置FK</item>
+    </string-array>
+    <string-array name="s_7_1_reason">
+        <item>保险管烧毁，36V无输出</item>
+        <item>JDB动作、合闸回路断电</item>
+        <item>分闸钮未复位</item>
+        <item>中间继电器ZJ1-ZJ2接点未闭合</item>
+        <item>远控二极管损坏</item>
+        <item>三联钮接线错误</item>
+        <item>正开有、倒开无</item>
+    </string-array>
+    <string-array name="s_7_1_sol">
+        <item>更换保险管</item>
+        <item>线路无故障的情况下更换JDB</item>
+        <item>分闸钮复位</item>
+        <item>更换继电器</item>
+        <item>查验主触头辅助接点</item>
+        <item>更换二极管</item>
+        <item>根据说明书接1#2#3#9#号线</item>
+        <item>查看倒车FC辅助接点及ZJ2中间继电器接点（相反的话同理）</item>
+    </string-array>
+    <!-- add new-->
+    <string-array name="s_7_2_reason">
+        <item>按钮QA1损坏或触点接触不好</item>
+        <item>36V电源中断</item>
+        <item>整流桥损坏</item>
+        <item>接触器CKJ1吸合线圈损坏</item>
+        <item>JDB漏电闭锁动作</item>
+        <item>中间继电器ZJ1损坏</item>
+    </string-array>
+    <string-array name="s_7_2_sol">
+        <item>换按钮，用锉或砂纸处理好触点</item>
+        <item>检查DH2 7－200是否合上，RD是否断，KB绕线是否断路</item>
+        <item>更换坏的二极管</item>
+        <item>更换接触器吸合线圈</item>
+        <item>找出漏电并做处理JDB自然解除</item>
+        <item>修理ZJ或更换</item>
+    </string-array>
+    <string-array name="s_7_3_reason">
+        <item>CKJ辅助触点接触不好</item>
+    </string-array>
+    <string-array name="s_7_3_sol">
+        <item>处理好触点</item>
+    </string-array>
+    <string-array name="s_7_4_reason">
+        <item>控制变压器KB线圈或引出线短路</item>
+    </string-array>
+    <string-array name="s_7_4_sol">
+        <item>① 查出短路处 ② 更换变压器线圈 </item>
+    </string-array>
+    <string-array name="s_7_5_reason">
+        <item>中间继电器ZJ23常开接点不接触</item>
+        <item>瓦斯报警信号不接触</item>
+        <item>JS14A损坏</item>
+    </string-array>
+    <string-array name="s_7_5_sol">
+        <item>修理触点或更换</item>
+        <item>修理好AK201</item>
+        <item>更换时间继电器JS14A</item>
+    </string-array>
+    <string-array name="s_7_6_reason">
+        <item>JDB整定电流太大</item>
+    </string-array>
+    <string-array name="s_7_6_sol">
+        <item>重新调整使整定电流合适</item>
+    </string-array>
+    <!--tail-->
+    <string-array name="s_8_1_reason">
+        <item>隔离开关打零位</item>
+        <item>JDB保护动作（3#4#）</item>
+        <item>按钮未按到位</item>
+        <item>合闸回路整流桥坏</item>
+        <item>主触头辅助接点18#19#未闭合</item>
+        <item>2#5#线未短接</item>
+        <item>电源电压低</item>
+    </string-array>
+    <string-array name="s_8_1_sol">
+        <item>合隔离开关</item>
+        <item>线路故障排除的情况下更换保护器</item>
+        <item>合闸按钮按到位</item>
+        <item>更换整流桥</item>
+        <item>调整主触头辅助接点</item>
+        <item>短接2#5#线</item>
+        <item>调整变压器分接头</item>
+    </string-array>
+    <string-array name="s_8_2_reason">
+        <item>合闸按钮未并联主触头辅助接点或者接触不好</item>
+    </string-array>
+    <string-array name="s_8_2_sol">
+        <item>修理触点并连接好接线</item>
+    </string-array>
+    <!-- add new-->
+    <string-array name="s_8_3_reason">
+        <item>保护器整定电流太小或电机过载</item>
+    </string-array>
+    <string-array name="s_8_3_sol">
+        <item>调整整定电流</item>
+    </string-array>
+    <!--tail-->
+    <string-array name="s_9_1_reason">
+        <item>主控制变压器一次或者二次保险烧毁</item>
+        <item>漏电短路故障未排除</item>
+        <item>保护插件损坏，误动作</item>
+        <item>中间继电器接点损坏</item>
+        <item>合闸按钮未合到位</item>
+        <item>主触头CJ线圈烧毁</item>
+    </string-array>
+    <string-array name="s_9_1_sol">
+        <item>更换保险</item>
+        <item>排除线路故障</item>
+        <item>更换保护插件</item>
+        <item>更换中间继电器</item>
+        <item>合闸钮合到位</item>
+        <item>更换主接触器</item>
+    </string-array>
+    <string-array name="s_10_1_reason">
+        <item>电源停电</item>
+        <item>电源连接是否有电</item>
+        <item>隔离开关是否到位</item>
+        <item>熔断器是否断路</item>
+        <item>控制回路发生故障</item>
+    </string-array>
+    <string-array name="s_10_1_sol">
+        <item>检查电源</item>
+        <item>检查电源线与接线端子的连接</item>
+        <item>将隔离开关搬到位</item>
+        <item>更换熔断器</item>
+        <item>检查控制回路的电源、整流电路、控制回路导线是否处于断路</item>
+    </string-array>
+    <string-array name="s_10_2_reason">
+        <item>开关外壳接地是否牢靠</item>
+        <item>插头是否松动</item>
+    </string-array>
+    <string-array name="s_10_2_sol">
+        <item>按一复位键</item>
+        <item>开关外壳接地</item>
+        <item>检查各插头是否松动</item>
+    </string-array>
+    <string-array name="s_10_3_reason">
+        <item>电压互感器和保险管断路</item>
+        <item>保护器电源线断路</item>
+    </string-array>
+    <string-array name="s_10_3_sol">
+        <item>检查电压互感器和保险管</item>
+        <item>检查保护器电源</item>
+    </string-array>
+    <string-array name="s_10_4_reason">
+        <item>参数调整不符合开关负荷的实际参数</item>
+    </string-array>
+    <string-array name="s_10_4_sol">
+        <item>调整开关参数</item>
+        <item>检查开关负荷或线路</item>
+    </string-array>
+    <string-array name="s_10_5_reason">
+        <item>参数设置不正确</item>
+        <item>漏电线路不通</item>
+    </string-array>
+    <string-array name="s_10_5_sol">
+        <item>正确设置保护器各参数</item>
+        <item>检查漏电线路</item>
+    </string-array>
+    <string-array name="s_11_1_reason">
+        <item>按钮接触不好</item>
+        <item>无36V电源</item>
+        <item>整流桥损坏</item>
+        <item>接触器线圈损坏</item>
+        <item>JDB漏电闭锁保护或JR9常闭触点接触不好</item>
+        <item>中间继电器卡死</item>
+    </string-array>
+    <string-array name="s_11_1_sol">
+        <item>修触点或更换按钮</item>
+        <item>检查HK是否合上，RD是否烧断或接触不好、KL绕组是否烧断</item>
+        <item>更换损坏的二极管</item>
+        <item>更换线圈或接触器</item>
+        <item>找出并排除负载漏电处</item>
+        <item>排除故障或更换继电器</item>
+    </string-array>
+    <string-array name="s_11_2_reason">
+        <item>电源电压低于75%额定电压</item>
+        <item>反力弹簧调节过紧</item>
+        <item>辅助触点接触不良</item>
+    </string-array>
+    <string-array name="s_11_2_sol">
+        <item>换大截面电缆减少线路压降</item>
+        <item>放松反力弹簧，但要保持一定的分闸速度</item>
+        <item>调整辅助触点使其接触良好</item>
+    </string-array>
+    <string-array name="s_11_3_reason">
+        <item>中间继电器卡死或熔焊</item>
+    </string-array>
+    <string-array name="s_11_3_sol">
+        <item>排除故障或更换继电器</item>
+    </string-array>
+    <string-array name="s_11_4_reason">
+        <item>电源三相严重不平衡</item>
+        <item>电容击穿</item>
+        <item>电容容量电阻阻值降低</item>
+    </string-array>
+    <string-array name="s_11_4_sol">
+        <item>调整负荷，使三相尽量平衡</item>
+        <item>更换被击穿电容</item>
+        <item>更换电容式电阻</item>
+    </string-array>
+    <string-array name="s_11_5_reason">
+        <item>接触器动导杆锁紧螺母松动</item>
+        <item>真空管漏气</item>
+    </string-array>
+    <string-array name="s_11_5_sol">
+        <item>按说明书调整三相触头开距并拧紧锁螺母</item>
+        <item>调整或更换</item>
+    </string-array>
+    <string-array name="s_11_6_reason">
+        <item>保护器整定电流太大</item>
+        <item>保护器动作不可靠</item>
+    </string-array>
+    <string-array name="s_11_6_sol">
+        <item>按电机容量的额定电流值调整保护器的合适整定电流</item>
+        <item>更换保护器</item>
+    </string-array>
+    <string-array name="s_11_7_reason">
+        <item>KL高压线圈短路或引线短路</item>
+    </string-array>
+    <string-array name="s_11_7_sol">
+        <item>查出短路处排除故障更换RD</item>
+    </string-array>
+    <string-array name="s_12_1_reason">
+        <item>电源未接通</item>
+        <item>保护器损坏</item>
+    </string-array>
+    <string-array name="s_12_1_sol">
+        <item>检查电源</item>
+        <item>更换保护器</item>
+    </string-array>
+    <string-array name="s_12_2_reason">
+        <item>地址设置不正确</item>
+        <item>跳线设置不正确</item>
+        <item>电缆接头或电缆故障</item>
+    </string-array>
+    <string-array name="s_12_2_sol">
+        <item>检查上下位机的地址是否一致</item>
+        <item>设置完地址后一定要给系统重新复位</item>
+        <item>检查跳线设置和电缆连接是否正确</item>
+    </string-array>
+    <string-array name="s_12_3_reason">
+        <item>短路保护器作用</item>
+    </string-array>
+    <string-array name="s_12_3_sol">
+        <item>检查电动机是否有故障</item>
+        <item>检查电动机馈线是否破损</item>
+        <item>检查额度电流及短路倍数设置</item>
+    </string-array>
+    <string-array name="s_12_4_reason">
+        <item>主接触器的常开辅助触点连接有问题或线路故障</item>
+    </string-array>
+    <string-array name="s_12_4_sol">
+        <item>对照线路图，查看辅助触点的接触是否良好，检查线路是否正常</item>
+    </string-array>
+    <string-array name="s_12_5_reason">
+        <item>液晶损坏</item>
+        <item>信号电缆连接不好</item>
+    </string-array>
+    <string-array name="s_12_5_sol">
+        <item>检查液晶显示器是否损坏</item>
+        <item>检查信号电缆的连接</item>
+    </string-array>
+    <string-array name="s_13_1_reason">
+        <item>电源未接通</item>
+        <item>控制器未进入“系统待命”状态</item>
+        <item>按钮接触不良</item>
+    </string-array>
+    <string-array name="s_13_1_sol">
+        <item>重新合上电源</item>
+        <item>按下复位键，使控制器复位</item>
+        <item>更换启动按钮</item>
+    </string-array>
+    <string-array name="s_13_2_reason">
+        <item>过载保护起作用</item>
+        <item>前级电源开关过载整定电流过小</item>
+    </string-array>
+    <string-array name="s_13_2_sol">
+        <item>观察控制器是否已过载预警</item>
+        <item>适当增大前级电源开关过载整定电流</item>
+    </string-array>
+    <string-array name="s_13_3_reason">
+        <item>控制器短路保护起作用</item>
+    </string-array>
+    <string-array name="s_13_3_sol">
+        <item>检查电动机是否有故障</item>
+        <item>检查电动机馈线是否破损</item>
+        <item>检查“CT一次值”设置是否正确</item>
+    </string-array>
+    <string-array name="s_13_4_reason">
+        <item>电源进线三相电压不平衡</item>
+        <item>高压晶闸管击穿</item>
+    </string-array>
+    <string-array name="s_13_4_sol">
+        <item>检查前级配电</item>
+        <item>更换同型号晶闸管</item>
+    </string-array>
+    <string-array name="s_13_5_reason">
+        <item>断相保护起作用</item>
+    </string-array>
+    <string-array name="s_13_5_sol">
+        <item>检查是否断相</item>
+    </string-array>
+    <string-array name="s_13_6_reason">
+        <item>旁路接触器未动作</item>
+        <item>旁路检测信号未接入控制器</item>
+    </string-array>
+    <string-array name="s_13_6_sol">
+        <item>检查旁路接触器线包回路是否正确</item>
+        <item>检查接到控制器19,22端子的旁路接触器的常开触点是否连接良好</item>
+    </string-array>
+    <string-array name="s_14_1_reason">
+        <item>SA4不在工作位</item>
+        <item>按钮接触不好</item>
+        <item>无控制电源</item>
+        <item>漏电闭锁</item>
+        <item>晶闸管损坏</item>
+        <item>控制器故障</item>
+        <item>晶闸管组件超温</item>
+        <item>启动器级联不正确</item>
+        <item>控制器缺相</item>
+        <item>PLC与控制器通信电缆接触不良</item>
+        <item>控制器与驱动板连接线松动</item>
+        <item>复位不好</item>
+    </string-array>
+    <string-array name="s_14_1_sol">
+        <item>将SA4打到工作位</item>
+        <item>更换先导组件</item>
+        <item>检查控制电路熔断器FU2及隔离换相开关的位置</item>
+        <item>找出漏电点进行处理</item>
+        <item>更换可控硅组件</item>
+        <item>更换控制器</item>
+        <item>等待，重新启动</item>
+        <item>按附图重新连接电缆</item>
+        <item>检查同步信号</item>
+        <item>检查或更换电缆</item>
+        <item>检查接线端子是否松动</item>
+        <item>复位开关RST</item>
+    </string-array>
+    <string-array name="s_14_2_reason">
+        <item>缺相</item>
+        <item>晶闸管组件坏</item>
+        <item>控制器到触发板的接线松动</item>
+        <item>触发板到可控硅的触发线断</item>
+        <item>触发板或控制器损坏</item>
+    </string-array>
+    <string-array name="s_14_2_sol">
+        <item>找出原因处理</item>
+        <item>更换可控硅组件</item>
+        <item>检查线路</item>
+        <item>检查线路</item>
+        <item>更换触发板或控制器</item>
+    </string-array>
+    <string-array name="s_14_3_reason">
+        <item>保护整定电流太大</item>
+    </string-array>
+    <string-array name="s_14_3_sol">
+        <item>重新整定保护动作电流</item>
+    </string-array>
+    <string-array name="s_14_4_reason">
+        <item>电机超载</item>
+        <item>启动频繁</item>
+    </string-array>
+    <string-array name="s_14_4_sol">
+        <item>降低负载</item>
+        <item>降低启动次数</item>
+    </string-array>
+    <string-array name="s_14_5_reason">
+        <item>先导操作回路连接不正确</item>
+    </string-array>
+    <string-array name="s_14_5_sol">
+        <item>按附图重新连接电路</item>
+    </string-array>
+    <string-array name="s_14_6_reason">
+        <item>电网干扰过大</item>
+        <item>显示电缆脱落</item>
+    </string-array>
+    <string-array name="s_14_6_sol">
+        <item>停车后按闭锁按钮</item>
+        <item>重新连接</item>
+    </string-array>
+    <string-array name="s_15_1_reason">
+        <item>RD1烧断</item>
+        <item>变压器损坏、综合保护器插件接触不良</item>
+    </string-array>
+    <string-array name="s_15_1_sol">
+        <item>更换RD1</item>
+        <item>检查变压器及综合保护器插件</item>
+    </string-array>
+    <string-array name="s_15_2_reason">
+        <item>J1损坏</item>
+        <item>2#、9#线没连，接线错误</item>
+    </string-array>
+    <string-array name="s_15_2_sol">
+        <item>检查J1</item>
+        <item>2#、9#短接、检查接线</item>
+    </string-array>
+    <string-array name="s_15_3_reason">
+        <item>JDB损坏、松动</item>
+        <item>9#线没接地</item>
+    </string-array>
+    <string-array name="s_15_3_sol">
+        <item>检查JDB</item>
+        <item>将9#线接地</item>
+    </string-array>
+    <string-array name="s_15_4_reason">
+        <item>SJ继电器有问题或接线错误</item>
+    </string-array>
+    <string-array name="s_15_4_sol">
+        <item>检查接线和更换综合保护器插件</item>
+    </string-array>
+    <string-array name="s_15_5_reason">
+        <item>风电闭锁电路或J3损坏</item>
+    </string-array>
+    <string-array name="s_15_5_sol">
+        <item>更换综合保护器插件</item>
+    </string-array>
+    <string-array name="s_15_6_reason">
+        <item>IC2、TR1或J2损坏</item>
+    </string-array>
+    <string-array name="s_15_6_sol">
+        <item>更换综合保护器插件</item>
+    </string-array>
+    <string-array name="s_15_7_reason">
+        <item>显示板坏或连线断</item>
+    </string-array>
+    <string-array name="s_15_7_sol">
+        <item>更换显示板、检查连线</item>
+    </string-array>
+    <string-array name="s_16_1_reason">
+        <item>显示系统电源未加上</item>
+        <item>显示板故障</item>
+    </string-array>
+    <string-array name="s_16_1_sol">
+        <item>可先不送电检查连接插座有无松动，发现松动应拧紧，测显示板插座1、2脚电压应为DC5V</item>
+        <item>测DC5V电压正常，可判断为显示板电路故障，更换新板</item>
+    </string-array>
+    <string-array name="s_16_2_reason">
+        <item>控制系统电源未加上</item>
+        <item>主板电路故障</item>
+    </string-array>
+    <string-array name="s_16_2_sol">
+        <item>可先不送电检查连接插座有无松动，发现松动应拧紧，开盖查看主板供电指示灯是否点亮，不亮可判断为系统电源电压未加上</item>
+        <item>测AC1140伏、AC127伏，两主板XJ11插座1、2脚DC5V电压是否正常。检测以上几种电压可判断供电电源变压器(BK)，初级保险、次级保险是否正常，发现异常更换</item>
+        <item>测供电电压正常，可判断为主板电路故障，更换新板</item>
+    </string-array>
+    <string-array name="s_16_3_reason">
+        <item>触发板供电故障</item>
+        <item>触发板保护</item>
+    </string-array>
+    <string-array name="s_16_3_sol">
+        <item>测触发板J3电源电压输入端子1、2号，电压正常时应为AC24伏。可查看电源指示灯PD1是否点亮，正常时为红色</item>
+        <item>查看触发板上的指示灯是否正常。PD3指示灯点亮为主供电系统缺相，触发板保护，正常时为不亮。PD2指示灯点亮，系统禁止触发。此时移相信号即使有，可控硅也无输出。工作时PD2指示灯为不亮</item>
+    </string-array>
+    <string-array name="s_16_4_reason">
+        <item>主接触器坏</item>
+        <item>DC24v控制继电器J1坏</item>
+        <item>主板上控制回路小型DC24v继电器线圈烧毁</item>
+    </string-array>
+    <string-array name="s_16_4_sol">
+        <item>更换</item>
+        <item>更换</item>
+        <item>更换</item>
+    </string-array>
+    <string-array name="s_16_5_reason">
+        <item>软启动系统缺相工作</item>
+        <item>插头松动</item>
+        <item>可控硅击穿</item>
+        <item>触发板坏</item>
+    </string-array>
+    <string-array name="s_16_5_sol">
+        <item>可控硅触发极故障，更换新的相同型号的可控硅</item>
+        <item>检查触发板上的端子J1A+，J1B+，J1C+，J2A-，J2B-，J2C-引线有无脱落。检查触发板与可控硅之间的连接插座A(B)CZ1有无脱落，引线焊接有无虚焊</item>
+        <item>用万用表Rx10K档，测上下极板即A，K极。正常时为无穷大</item>
+        <item>更换</item>
+    </string-array>
+    <string-array name="s_16_6_reason">
+        <item>主供电系统绝缘破坏，造成输出高压击穿短路</item>
+        <item>阻容吸收装置电容极板之间，极板对外壳漏电</item>
+    </string-array>
+    <string-array name="s_16_6_sol">
+        <item>主要检测部位可控硅，吸收回路，控制变压器初级，漏电电感。检测输入对地绝缘时必须将触发板J5的三根引线拆掉，触发板与可控硅之间的连接插座A(B)CZ1拔掉。避免损坏触发板及可控硅</item>
+        <item>检测时用2500V摇表，测输出对地绝缘，正常时应在5—15MΩ</item>
+    </string-array>
+    <string-array name="s_17_1_reason">
+        <item>电源缺相</item>
+        <item>电动机连接不正确</item>
+        <item>电流或电压反馈不正确或丢失</item>
+    </string-array>
+    <string-array name="s_17_1_sol">
+        <item>检查线路是否断开（即熔断器断开）</item>
+        <item>检查负载电缆是否开路</item>
+        <item>检查电流互感器和模块编程</item>
+        <item>检查电压反馈板连接和模块编程</item>
+        <item>检查接口板和控制模块之间的带型电缆连接</item>
+        <item>检查电压反馈电路</item>
+    </string-array>
+    <string-array name="s_17_2_reason">
+        <item>功率模块短路</item>
+    </string-array>
+    <string-array name="s_17_2_sol">
+        <item>检查SCR是否短路需要如果则替换功率模块</item>
+    </string-array>
+    <string-array name="s_17_3_reason">
+        <item>门极开路</item>
+        <item>门极导线断开</item>
+    </string-array>
+    <string-array name="s_17_3_sol">
+        <item>完成电源供电测试</item>
+        <item>检查连接到控制模块的门极导线连接状况和光纤</item>
+    </string-array>
+    <string-array name="s_17_4_reason">
+        <item>控制器通风阻塞</item>
+        <item>控制器使用时间过长</item>
+        <item>环境温度超过允许的限度</item>
+        <item>热敏电阻失效</item>
+        <item>控制模块失效</item>
+        <item>门极驱动板失效</item>
+        <item>光纤电缆故障</item>
+        <item>接口板失效</item>
+    </string-array>
+    <string-array name="s_17_4_sol">
+        <item>检查通风是否正常</item>
+        <item>检查工作时间</item>
+        <item>等待控制器冷却或提供额外冷却装置</item>
+        <item>检查连接或更换热敏电阻</item>
+        <item>更换控制模块</item>
+        <item>检查或更换门极驱动板</item>
+        <item>检查或更换电缆</item>
+        <item>测试或更换接口板；检查带型电缆</item>
+    </string-array>
+    <string-array name="s_17_5_reason">
+        <item>电机通风阻塞</item>
+        <item>电机使用时间过长</item>
+        <item>PTC断开</item>
+    </string-array>
+    <string-array name="s_17_5_sol">
+        <item>检查通风是否正常</item>
+        <item>检查电机工作时间</item>
+        <item>等待控制器冷却或提供额外冷却装置</item>
+        <item>检查PTC的电阻阻值</item>
+    </string-array>
+    <string-array name="s_17_6_reason">
+        <item>控制电压为低电平</item>
+        <item>功率模块旁路失效</item>
+    </string-array>
+    <string-array name="s_17_6_sol">
+        <item>检查控制电压电源供电</item>
+        <item>检查控制电路运行</item>
+        <item>检查控制器上控制插头</item>
+    </string-array>
+    <string-array name="s_17_7_reason">
+        <item>负荷侧电源接线断开</item>
+        <item>反馈丢失</item>
+    </string-array>
+    <string-array name="s_17_7_sol">
+        <item>检查全部的负荷侧电源接线和电动机绕组</item>
+        <item>检查电压传感模块</item>
+    </string-array>
+    <string-array name="s_17_8_reason">
+        <item>供电不平衡超过了用户设定值</item>
+        <item>应用延迟时间太短</item>
+        <item>反馈不平衡</item>
+    </string-array>
+    <string-array name="s_17_8_sol">
+        <item>检查电源系统并在必要时纠正</item>
+        <item>增加延迟时间与应用要求保持一致</item>
+        <item>检查电压传感模块</item>
+    </string-array>
+    <string-array name="s_17_9_reason">
+        <item>供电电压超过用户设定值</item>
+    </string-array>
+    <string-array name="s_17_9_sol">
+        <item>检查电源系统并在必要时进行更正</item>
+        <item>修改用户设定值</item>
+    </string-array>
+    <string-array name="s_17_10_reason">
+        <item>供电电压低于用户设定值</item>
+        <item>延迟时间太短</item>
+    </string-array>
+    <string-array name="s_17_10_sol">
+        <item>检查电源系统并在必要时进行更正</item>
+        <item>修改用户设定值</item>
+        <item>增加延迟时间与应用要求一致</item>
+    </string-array>
+    <string-array name="s_17_11_reason">
+        <item>电动机过载</item>
+        <item>过载参数与电动机不匹配</item>
+    </string-array>
+    <string-array name="s_17_11_sol">
+        <item>检查电动机过载状态</item>
+        <item>检查过载等级和电动机满载电流值的设定值</item>
+    </string-array>
+    <string-array name="s_17_12_reason">
+        <item>电动机轴断裂</item>
+        <item>皮带刀具等断裂</item>
+    </string-array>
+    <string-array name="s_17_12_sol">
+        <item>修复或更换电动机</item>
+        <item>检查设备</item>
+    </string-array>
+    <string-array name="s_17_13_reason">
+        <item>电机电动机电流超过用户设定的堵转等级</item>
+    </string-array>
+    <string-array name="s_17_13_sol">
+        <item>更正堵转原因</item>
+        <item>检查编程设定时间值</item>
+    </string-array>
+    <string-array name="s_17_14_reason">
+        <item>在编程设定的斜坡时间结束时电机没有达到额度速度</item>
+    </string-array>
+    <string-array name="s_17_14_sol">
+        <item>更正失速原因</item>
+    </string-array>
+    <string-array name="s_17_15_reason">
+        <item>电源线不是ABC相序</item>
+    </string-array>
+    <string-array name="s_17_15_sol">
+        <item>检查电源接线</item>
+        <item>如果不需要就禁止保护</item>
+    </string-array>
+    <string-array name="s_17_16_reason">
+        <item>串口的通信部件断开</item>
+    </string-array>
+    <string-array name="s_17_16_sol">
+        <item>检查通信电缆连接到SMC控制状况</item>
+    </string-array>
+    <string-array name="s_17_17_reason">
+        <item>DPI网络部件断开</item>
+    </string-array>
+    <string-array name="s_17_17_sol">
+        <item>重新连接所有DPI部件</item>
+    </string-array>
+    <string-array name="s_17_18_reason">
+        <item>接地故障电流等级超过编程设定值</item>
+    </string-array>
+    <string-array name="s_17_18_sol">
+        <item>检查电源系统和电动机，必要时纠正</item>
+        <item>检查编程设定的接地故障等级以满足应用要求</item>
+    </string-array>
+    <string-array name="s_17_19_reason">
+        <item>每小时起到的次数超过用户编程设定值</item>
+    </string-array>
+    <string-array name="s_17_19_sol">
+        <item>等待合适的时间后重新起动</item>
+    </string-array>
+    <string-array name="s_17_20_reason">
+        <item>供电电源断开</item>
+        <item>反馈丢失</item>
+    </string-array>
+    <string-array name="s_17_20_sol">
+        <item>检查接线状况（熔断器断开）</item>
+        <item>检查CT连接，更换接口板</item>
+    </string-array>
+    <string-array name="s_17_21_reason">
+        <item>接口故障</item>
+    </string-array>
+    <string-array name="s_17_21_sol">
+        <item>检查接口板和控制模块间的带型电缆连接</item>
+        <item>更换接口板</item>
+    </string-array>
+    <string-array name="s_17_22_reason">
+        <item>数据输入错误</item>
+    </string-array>
+    <string-array name="s_17_22_sol">
+        <item>检查用户数据并且进行用户数据存储</item>
+        <item>更换控制模块</item>
+    </string-array>
+    <string-array name="s_17_23_reason">
+        <item>线路失真变形</item>
+        <item>高阻抗连接</item>
+    </string-array>
+    <string-array name="s_17_23_sol">
+        <item>检查供电电压能否停止/起到电机</item>
+        <item>检查进线侧和电机侧的电源线连接是否松动</item>
+    </string-array>
+    <string-array name="s_17_24_reason">
+        <item>控制模块内部故障</item>
+    </string-array>
+    <string-array name="s_17_24_sol">
+        <item>重新上电，复位控制模块</item>
+        <item>如果故障继续存在，更换控制模块</item>
+    </string-array>
+    <string-array name="s_17_25_reason">
+        <item>控制电源断开</item>
+        <item>控制模块故障</item>
+    </string-array>
+    <string-array name="s_17_25_sol">
+        <item>检查控制接线并在必要时更正</item>
+        <item>更换控制模块</item>
+    </string-array>
+    <string-array name="s_17_26_reason">
+        <item>SMC使能输入端在端子13开路</item>
+        <item>端子16开路</item>
+        <item>控制电压不正确</item>
+        <item>控制模块失效</item>
+    </string-array>
+    <string-array name="s_17_26_sol">
+        <item>检查接线</item>
+        <item>检查接线</item>
+        <item>检查控制电压</item>
+        <item>更换控制模块</item>
+    </string-array>
+    <string-array name="s_17_27_reason">
+        <item>两相或者三相电源断开</item>
+    </string-array>
+    <string-array name="s_17_27_sol">
+        <item>检查供电电源系统</item>
+        <item>检查电压反馈模块和连接</item>
+    </string-array>
+    <string-array name="s_17_28_reason">
+        <item>机械故障</item>
+        <item>电流限幅设定值不足</item>
+        <item>控制模块失效</item>
+    </string-array>
+    <string-array name="s_17_28_sol">
+        <item>检查绑定或者外部负载状况并且在必要时更正</item>
+        <item>检查电机</item>
+        <item>调整电流限幅设定值到更高的等级</item>
+        <item>更换控制模块</item>
+    </string-array>
+    <string-array name="s_17_29_reason">
+        <item>控制电压断开</item>
+        <item>控制模块故障</item>
+    </string-array>
+    <string-array name="s_17_29_sol">
+        <item>检查控制接线并且在必要时进行更正</item>
+        <item>更换控制模块</item>
+    </string-array>
+    <string-array name="s_17_30_reason">
+        <item>控制模块失效</item>
+    </string-array>
+    <string-array name="s_17_30_sol">
+        <item>检查接线</item>
+        <item>更换控制模块</item>
+    </string-array>
+    <string-array name="s_17_31_reason">
+        <item>两相或者三相电源断开</item>
+        <item>控制模块失效</item>
+    </string-array>
+    <string-array name="s_17_31_sol">
+        <item>检查供电系统电源</item>
+        <item>检查电压传感器模块和连接</item>
+        <item>更换控制模块</item>
+    </string-array>
+    <string-array name="s_17_32_reason">
+        <item>电机故障</item>
+        <item>不规则负载</item>
+    </string-array>
+    <string-array name="s_17_32_sol">
+        <item>检查电机是否为标准型鼠笼感应式电动机</item>
+        <item>检查负载情况</item>
+    </string-array>
+    <string-array name="s_17_33_reason">
+        <item>连接松动</item>
+    </string-array>
+    <string-array name="s_17_33_sol">
+        <item>关闭控制器所有的电源并且检查控制接线是否松动</item>
+    </string-array>
+    <string-array name="s_17_34_reason">
+        <item>启动时间</item>
+        <item>初始转矩</item>
+        <item>电流限幅设定值</item>
+        <item>突跳启动</item>
+    </string-array>
+    <string-array name="s_17_34_sol">
+        <item>增加启动时间</item>
+        <item>降低初始转矩设定值</item>
+        <item>降低电流限幅等级</item>
+        <item>减少突跳启动时间或者关闭</item>
+    </string-array>
+    <string-array name="s_17_35_reason">
+        <item>启动时间</item>
+        <item>初始转矩</item>
+        <item>电流限幅设定值</item>
+        <item>突跳启动</item>
+    </string-array>
+    <string-array name="s_17_35_sol">
+        <item>降低启动时间</item>
+        <item>增加初始转矩设定值</item>
+        <item>增加电流限幅等级</item>
+        <item>增加突跳启动时间或者关闭</item>
+    </string-array>
+    <string-array name="s_17_36_reason">
+        <item>过载</item>
+        <item>通风阻塞</item>
+        <item>工作时间</item>
+    </string-array>
+    <string-array name="s_17_36_sol">
+        <item>允许电机冷却和减少负载</item>
+        <item>除去障碍物，确保电机充分冷却</item>
+        <item>在准确停机选项下：低速产生延长运行时间导致电机冷却系统效率下降</item>
+    </string-array>
+    <string-array name="s_17_37_reason">
+        <item>绕组错误</item>
+    </string-array>
+    <string-array name="s_17_37_sol">
+        <item>识别故障并更正</item>
+        <item>检查是否有SCR短路，如有这更换</item>
+        <item>确保电源端子是安全有效的</item>
+    </string-array>
+    <string-array name="fault_cate">
+        <item>合闸不动作</item>
+        <item>漏电实验不动作</item>
+        <item>不分闸</item>
+    </string-array>
+    <string-array name="number">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>十三</item>
+        <item>十四</item>
+        <item>十五</item>
+        <item>十六</item>
+        <item>十七</item>
+        <item>十八</item>
+        <item>十九</item>
+        <item>二十</item>
+    </string-array>
+    <string-array name="number2">
+        <item>1.</item>
+        <item>2.</item>
+        <item>3.</item>
+        <item>4.</item>
+        <item>5.</item>
+        <item>6.</item>
+        <item>7.</item>
+        <item>8.</item>
+        <item>9.</item>
+        <item>10.</item>
+        <item>11.</item>
+        <item>12.</item>
+        <item>13.</item>
+        <item>14.</item>
+        <item>15.</item>
+        <item>16.</item>
+        <item>17.</item>
+        <item>18.</item>
+        <item>19.</item>
+        <item>20.</item>
+        <item>21.</item>
+        <item>22.</item>
+        <item>23.</item>
+        <item>24.</item>
+        <item>25.</item>
+        <item>26.</item>
+        <item>27.</item>
+        <item>28.</item>
+        <item>29.</item>
+        <item>30.</item>
+        <item>31.</item>
+        <item>32.</item>
+        <item>33.</item>
+        <item>34.</item>
+        <item>35.</item>
+        <item>36.</item>
+        <item>37.</item>
+        <item>38.</item>
+        <item>39.</item>
+        <item>40.</item>
+    </string-array>
+    <string name="title_activity_startpage">@string/app_name</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>
