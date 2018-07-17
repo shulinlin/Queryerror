@@ -8,8 +8,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/QRcapture" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/mysql-connector-java-5.1.45-bin" />
+            <option value="$PROJECT_DIR$/qrcodecapture" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

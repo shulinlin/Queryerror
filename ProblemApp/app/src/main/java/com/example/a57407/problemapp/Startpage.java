@@ -136,8 +136,9 @@ public class Startpage extends AppCompatActivity
 
         } else if (id == R.id.nav_share) {
 
-        } else if (id == R.id.nav_send) {
-
+        }else if(id == R.id.nav_about){
+            Intent aboutActivity = new Intent(getApplicationContext(),About2Activity.class);
+            startActivity(aboutActivity);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

@@ -27,7 +27,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="本软件开发，计划分为二个阶段："
-        android:textSize="16dp"
+        android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,15 +35,15 @@
 
     <TextView
         android:id="@+id/p1"
-        android:layout_width="398dp"
-        android:layout_height="428dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="20dp"
         android:text="一、1.0版系列，纯文字、免费版，在增加一定数量的机电设备维修实例后，即完成本次升级，需要安装下载更新版本。（升级信息可关注本人的微信公众号：yxbmaste)。\n二、2.0版系列，为图文版（共享或免费），依据开关实际照片，指出故障点的故障元件。\n注：本软件部分内容来自网络，如有侵权请及时告知删除。"
-        android:textSize="16dp"
+        android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,11 +58,25 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:text="联系作者：\n微信号：yxb2001\nQQ号：24529530\n电子邮箱：24529530@qq.com\n微信公众号：yxbmaste"
+        android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.04"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/p1" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="232dp"
+        android:layout_height="321dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p1"
+        app:srcCompat="@drawable/weixin" />
 </android.support.constraint.ConstraintLayout>

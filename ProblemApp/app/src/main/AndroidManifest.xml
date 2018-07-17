@@ -3,6 +3,10 @@
     package="com.example.a57407.problemapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
 
     <application
         android:allowBackup="true"
@@ -35,7 +39,8 @@
         <activity
             android:name=".Startpage"
             android:label="@string/title_activity_startpage"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".About2Activity"></activity>
     </application>
 
 </manifest>
